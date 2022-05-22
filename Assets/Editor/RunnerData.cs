@@ -10,12 +10,12 @@ using static Runner_SO;
 public class RunnerData
 {
     // Used to remove special chars from file names
-    const string fileNameConstraints = @"[<>:\/.|?*!\\]";
+    private const string fileNameConstraints = @"[<>:\/.|?*!\\]";
     private const string MogPath = "Assets/RelayFiles/mog-runners.txt";
     private const string ChocoPath = "Assets/RelayFiles/choco-runners.txt";
     private const string TonberryPath = "Assets/RelayFiles/tonberry-runners.txt";
 
-    [MenuItem("FF Relay Tool/Create Runner Scriptable Objects")]
+    [MenuItem("FF Relay Tool/Runners/Create Runner Scriptable Objects")]
     public static void GenerateRunnerObjects()
     {
         // Reset directories

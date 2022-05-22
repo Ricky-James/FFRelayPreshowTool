@@ -6,8 +6,9 @@ using UnityEditor;
 
 public class GameData
 {
+    private const string fileNameConstraints = @"[<>:\/.|?*!\\]";
     // Creates all the scriptable objects for every game and names them appropriately
-    [MenuItem("FF Relay Tool/Create FF Scriptable Objects")]
+    [MenuItem("FF Relay Tool/Games/Create FF Scriptable Objects")]
     public static void CreateGameObjects()
     {
         // Clear directory
@@ -15,7 +16,7 @@ public class GameData
         Directory.CreateDirectory("Assets/Games");
         
         // Used to remove special chars from file names
-        const string fileNameConstraints = @"[<>:\/.|?*!\\]";
+        
         string[] gameList = GetGamesList();
         string[] categories = GetCategories();
 
