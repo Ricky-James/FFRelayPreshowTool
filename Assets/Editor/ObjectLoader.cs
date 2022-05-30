@@ -13,19 +13,19 @@ public class ObjectLoader : MonoBehaviour
     public static void AssignScriptableObjects()
     {
         // Gets all FF game scriptable objects by path
-        List<ScriptableObject> games = new List<ScriptableObject>();
+        List<Game_SO> games = new List<Game_SO>();
         string[] assetNames = AssetDatabase.FindAssets("", new [] {"Assets/Games"});
         foreach (string name in assetNames)
         {
             string path = AssetDatabase.GUIDToAssetPath(name);
-            ScriptableObject game = AssetDatabase.LoadAssetAtPath<Game_SO>(path);
+            Game_SO game = AssetDatabase.LoadAssetAtPath<Game_SO>(path);
             games.Add(game);
         }
         SetGameData(games);
     }
 
     // Assigns scriptable objects to game data in inspector
-    private static void SetGameData(List<ScriptableObject> objects)
+    private static void SetGameData(List<Game_SO> objects)
     {
         GameController gameController = FindObjectOfType<GameController>();
         gameController.GameData.Clear();
