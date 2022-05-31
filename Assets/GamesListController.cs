@@ -38,9 +38,13 @@ public class GamesListController : MonoBehaviour
     private void UpdateText()
     {
         GamesListText.text = "";
+        int i = 1;
         foreach (Game_SO game in gameController.GameData)
         {
-            GamesListText.text += game.TextColor + game.Name + "\n";
+            // Numbers each game (01, 02 etc.), adds a colour using Rich Text, then adds game name
+            // Example: 17 - Final Fantasy Tactics
+            GamesListText.text += game.TextColor + i.ToString("00.##") + " - " + game.Name + "\n";
+            i++;
         }
     }
 
