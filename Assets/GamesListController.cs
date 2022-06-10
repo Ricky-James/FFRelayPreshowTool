@@ -12,8 +12,9 @@ public class GamesListController : MonoBehaviour
     public TMP_Text GamesListText;
     public GameController gameController;
 
-    private const string WHITE = "<alpha=#FF>";
-    private const string GREY = "<alpha=#66>";
+    private const string SELECTED = "<color=#FFFFFFFF><size=125%>";
+    private const string UNSELECTED = "<color=#888888FF><size=100%>";
+    private const string END_FORMATTING = "</size>";
 
     private void Start()
     {
@@ -21,9 +22,23 @@ public class GamesListController : MonoBehaviour
         foreach (Game_SO game in gameController.GameData)
         {
             
-            GamesListText.text += GREY + game.Name + "\n";
+            GamesListText.text += UNSELECTED + game.Name + END_FORMATTING + "\n";
         }
-        HighlightGame(1);
+        HighlightGame(5);
+    }
+    
+    public void HighlightGame(int gameID)
+    {
+        try { gameID--; }
+        catch
+        {
+            Debug.LogWarning("Tried to access game 0");
+            gameID = Mathf.Clamp(gameID, 1, gameController.GameData.Count); // Index 1
+        }
+
+        ResetTextColours();
+        gameController.GameData[gameID].Selected = true;
+        UpdateText();
     }
 
     // Set all game text colours to grey
@@ -31,10 +46,10 @@ public class GamesListController : MonoBehaviour
     {
         foreach (Game_SO game in gameController.GameData)
         {
-            game.TextColor = GREY;
+            game.Selected = false;
         }
     }
-
+    
     private void UpdateText()
     {
         GamesListText.text = "";
@@ -43,21 +58,10 @@ public class GamesListController : MonoBehaviour
         {
             // Numbers each game (01, 02 etc.), adds a colour using Rich Text, then adds game name
             // Example: 17 - Final Fantasy Tactics
-            GamesListText.text += game.TextColor + i.ToString("00.##") + " - " + game.Name + "\n";
+            GamesListText.text += (game.Selected ? SELECTED : UNSELECTED) + i.ToString("00.##") + " - " + game.Name + END_FORMATTING + "\n";
             i++;
         }
     }
 
-    public void HighlightGame(int gameID)
-    {
-        try { gameID--; }
-        catch
-        {
-            gameID = Mathf.Clamp(gameID, 1, gameController.GameData.Count); // Index 1
-        }
 
-        ResetTextColours();
-        gameController.GameData[gameID].TextColor = WHITE;
-        UpdateText();
-    }
 }

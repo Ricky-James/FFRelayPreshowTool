@@ -15,4 +15,5 @@ MonoBehaviour:
   Name: Final Fantasy V
   Category: SNES - Glitchless
   BGColor: {r: 0, g: 0, b: 0, a: 0}
+  Selected: 0
   Logo: {fileID: 0}

@@ -9,6 +9,6 @@ public class Game_SO : ScriptableObject
     public string Name;
     public string Category;
     public Color BGColor;
-    public string TextColor;
+    public bool Selected;
     public Image Logo;
 }

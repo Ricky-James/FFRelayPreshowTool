@@ -31,7 +31,7 @@ public class GameData
             game[i] = ScriptableObject.CreateInstance<Game_SO>();
             game[i].Name = gameList[i];
             game[i].Category = categories[i];
-            game[i].TextColor = "<alpha=#88>";
+            game[i].Selected = false;
             
             AssetDatabase.CreateAsset(game[i], $"Assets/Games/{i+1} - {gameName}.asset");
             AssetDatabase.SaveAssets();

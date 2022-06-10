@@ -15,4 +15,5 @@ MonoBehaviour:
   Name: 'Crystal Chronicles: Remastered'
   Category: PS4 - Any% No DLC
   BGColor: {r: 0, g: 0, b: 0, a: 0}
+  Selected: 0
   Logo: {fileID: 0}

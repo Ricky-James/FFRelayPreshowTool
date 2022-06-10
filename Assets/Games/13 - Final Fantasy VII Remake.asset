@@ -15,4 +15,5 @@ MonoBehaviour:
   Name: 'Final Fantasy VII: Remake'
   Category: PS5 - NMG Normal
   BGColor: {r: 0, g: 0, b: 0, a: 0}
+  Selected: 0
   Logo: {fileID: 0}

@@ -41,9 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: VFX
+    uniqueID: 4098010827
+    locked: 0
   - name: Mascot
     uniqueID: 3125233123
     locked: 0
-  - name: VFX
-    uniqueID: 4098010827
+  - name: Foreground
+    uniqueID: 1541404899
     locked: 0
