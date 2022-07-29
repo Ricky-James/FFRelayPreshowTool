@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: ' LionMusashi'
   team: 0
   flag: {fileID: 0}
-  IsTwitch: 1
+  streamService: 0

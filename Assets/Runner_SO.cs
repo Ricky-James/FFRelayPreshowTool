@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,8 +12,15 @@ public class Runner_SO : ScriptableObject
         Mog,
         Tonberry
     }
+    public enum StreamService
+    {
+        Twitch,
+        YouTube,
+        None
+    }
+    
     public string Name;
     public Team team;
     public Image flag;
-    public bool IsTwitch;
+    public StreamService streamService;
 }

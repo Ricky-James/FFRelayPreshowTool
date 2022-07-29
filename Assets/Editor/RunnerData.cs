@@ -85,7 +85,7 @@ public class RunnerData
             runnerObject[i] = ScriptableObject.CreateInstance<Runner_SO>();
             runnerObject[i].Name = runnerName;
             runnerObject[i].team = team;
-            runnerObject[i].IsTwitch = true; //Manually configured in Inspector
+            runnerObject[i].streamService = StreamService.Twitch; // If different, manually configure in Inspector
  
             runnerName = Regex.Replace(runnerName, fileNameConstraints, "");
             AssetDatabase.CreateAsset(runnerObject[i], $"Assets/Runners/{team}/{i+1} - {team} - {runnerName}.asset");

@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: " \u308B\u3071\u3093 (rupan2525)"
   team: 2
   flag: {fileID: 0}
-  IsTwitch: 1
+  streamService: 0

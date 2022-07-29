@@ -25,6 +25,10 @@ public class GameController : MonoBehaviour
     [SerializeField] private string[] TonberryNames;
 
     public List<Game_SO> GameData = new();
+    public List<Runner_SO> MogRunners = new();
+    public List<Runner_SO> ChocoRunners = new();
+    public List<Runner_SO> TonberryRunners = new();
+
 
     private int currentGame = 1;
 

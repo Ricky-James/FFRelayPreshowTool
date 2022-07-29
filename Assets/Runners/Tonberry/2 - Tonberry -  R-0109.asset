@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: ' R-0109'
   team: 2
   flag: {fileID: 0}
-  IsTwitch: 1
+  streamService: 0
