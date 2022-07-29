@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c810b9d4e70a05241b4b574f6767ba7e, type: 3}
   m_Name: 12 - Final Fantasy IV
   m_EditorClassIdentifier: 
-  Name: Final Fantasy IV
+  Title: Final Fantasy IV
   Category: SNES - No Credits Warp
   BGColor: {r: 0, g: 0, b: 0, a: 0}
   Selected: 0

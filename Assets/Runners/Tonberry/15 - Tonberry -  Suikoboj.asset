@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: ' Suikoboj'
   team: 2
   flag: {fileID: 0}
+  IsTwitch: 1

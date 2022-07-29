@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c810b9d4e70a05241b4b574f6767ba7e, type: 3}
   m_Name: 9 - Final Fantasy XIII-2
   m_EditorClassIdentifier: 
-  Name: Final Fantasy XIII-2
+  Title: Final Fantasy XIII-2
   Category: PC - Any%
   BGColor: {r: 0, g: 0, b: 0, a: 0}
   Selected: 0

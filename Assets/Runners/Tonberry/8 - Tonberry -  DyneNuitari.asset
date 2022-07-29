@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: ' DyneNuitari'
   team: 2
   flag: {fileID: 0}
+  IsTwitch: 1

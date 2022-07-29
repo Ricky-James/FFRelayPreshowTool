@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: ' Poorscythe'
   team: 0
   flag: {fileID: 0}
+  IsTwitch: 1

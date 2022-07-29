@@ -17,10 +17,10 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 709
+    x: 589
     y: -190
-    width: 656
-    height: 2115
+    width: 776
+    height: 1938
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -56,7 +56,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":30.969755172729493,"g":4.503335952758789,"b":40.958919525146487,"a":0.1568627506494522}'
+      m_SerializableObject: '{"r":30.969755172729493,"g":4.503335952758789,"b":40.958919525146487,"a":1.0}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -195,7 +195,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614580}
   - {fileID: 8926484042661614649}
   - {fileID: 8926484042661614681}
-  m_UIPosition: {x: 941.3827, y: 114.57214}
+  m_UIPosition: {x: 938, y: 150}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614589}
   - {fileID: 8926484042661614591}
   - {fileID: 8926484042661614593}
-  m_UIPosition: {x: 941, y: 1394}
+  m_UIPosition: {x: 938, y: 1215}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -1295,7 +1295,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614597}
       inputSlot: {fileID: 8926484042661614604}
-    position: {x: 733.2506, y: 678.0816}
+    position: {x: 662, y: 1553}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614597
@@ -1327,7 +1327,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":30.969755172729493,"g":4.503335952758789,"b":40.958919525146487,"a":0.1568627506494522}'
+      m_SerializableObject: '{"r":30.969755172729493,"g":4.503335952758789,"b":40.958919525146487,"a":1.0}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -1511,7 +1511,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614603}
       inputSlot: {fileID: 8926484042661614609}
-    position: {x: 709, y: 851}
+    position: {x: 589, y: 1655}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614603
@@ -1770,7 +1770,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 941, y: 1263}
+  m_UIPosition: {x: 938, y: 1084}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []

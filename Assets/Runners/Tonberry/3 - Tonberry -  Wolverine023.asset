@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: ' Wolverine023'
   team: 2
   flag: {fileID: 0}
+  IsTwitch: 1

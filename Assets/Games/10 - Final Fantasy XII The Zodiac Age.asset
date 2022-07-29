@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c810b9d4e70a05241b4b574f6767ba7e, type: 3}
   m_Name: 10 - Final Fantasy XII The Zodiac Age
   m_EditorClassIdentifier: 
-  Name: 'Final Fantasy XII: The Zodiac Age'
+  Title: 'Final Fantasy XII: The Zodiac Age'
   Category: PC - Any%
   BGColor: {r: 0, g: 0, b: 0, a: 0}
   Selected: 0

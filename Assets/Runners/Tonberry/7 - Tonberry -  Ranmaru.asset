@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: ' Ranmaru'
   team: 2
   flag: {fileID: 0}
+  IsTwitch: 1

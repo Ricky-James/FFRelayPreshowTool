@@ -29,7 +29,7 @@ public class GameData
             gameName = Regex.Replace(gameName, fileNameConstraints, "");
 
             game[i] = ScriptableObject.CreateInstance<Game_SO>();
-            game[i].Name = gameList[i];
+            game[i].Title = gameList[i];
             game[i].Category = categories[i];
             game[i].Selected = false;
             

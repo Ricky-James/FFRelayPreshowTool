@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: ' Soll_Ashelia'
   team: 2
   flag: {fileID: 0}
+  IsTwitch: 1

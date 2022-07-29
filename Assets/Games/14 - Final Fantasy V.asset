@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c810b9d4e70a05241b4b574f6767ba7e, type: 3}
   m_Name: 14 - Final Fantasy V
   m_EditorClassIdentifier: 
-  Name: Final Fantasy V
+  Title: Final Fantasy V
   Category: SNES - Glitchless
   BGColor: {r: 0, g: 0, b: 0, a: 0}
   Selected: 0

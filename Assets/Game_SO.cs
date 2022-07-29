@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Game_SO : ScriptableObject
 {
-    public string Name;
+    public string Title;
     public string Category;
     public Color BGColor;
     public bool Selected;
