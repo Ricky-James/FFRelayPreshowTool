@@ -32,6 +32,7 @@ public class GameData
             game[i].Title = gameList[i];
             game[i].Category = categories[i];
             game[i].Selected = false;
+            game[i].Done = false;
             
             AssetDatabase.CreateAsset(game[i], $"Assets/Games/{i+1} - {gameName}.asset");
             AssetDatabase.SaveAssets();

@@ -8,7 +8,8 @@ public class GamesListController : MonoBehaviour
     [SerializeField] private TMP_Text currentGameAndCategory;
 
     private const string SELECTED = "<color=#FFFFFFFF><size=145%>";
-    private const string UNSELECTED = "<color=#888888FF><size=100%>";
+    private const string NOTDONE = "<color=#88888800><size=100%>";
+    private const string DONE = "<color=#888888FF><size=100%>";
     private const string END_FORMATTING = "</size>";
 
     private void Awake()
@@ -16,7 +17,7 @@ public class GamesListController : MonoBehaviour
         GamesListText.text = "";
         foreach (Game_SO game in gameController.GameData)
         {
-            GamesListText.text += UNSELECTED + game.Title + END_FORMATTING + "\n";
+            GamesListText.text += NOTDONE + game.Title + END_FORMATTING + "\n";
         }
     }
     
@@ -24,6 +25,7 @@ public class GamesListController : MonoBehaviour
     {
         ResetGamesList();
         gameController.GameData[gameID].Selected = true;
+        gameController.GameData[gameID].Done = true;
         UpdateText();
     }
     
@@ -47,9 +49,18 @@ public class GamesListController : MonoBehaviour
                 currentGameAndCategory.text = game.Title + "\n<size=65%>" + game.Category + "</size>";
 
             // Formats the selected game to be bigger and coloured white
-            GamesListText.text += (game.Selected ? SELECTED : UNSELECTED) + game.Title + END_FORMATTING + "\n";
+            // Bit of a monstrosity but essentially games are big and white when it's the current game,
+            // Invisible when it has not been revealed
+            // And grey when it's been revealed but no longer the current game
+            GamesListText.text += (game.Selected ? SELECTED : game.Done ? DONE : NOTDONE) + game.Title + END_FORMATTING + "\n";
         }
     }
 
-
+    private void OnApplicationQuit()
+    {
+        foreach (Game_SO game in gameController.GameData)
+        {
+            game.Done = false;
+        }
+    }
 }

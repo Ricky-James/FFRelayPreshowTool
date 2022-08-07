@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using Input = InputHandler;
+using System.Windows;
+using UnityEngine.Rendering;
 
 public class GameController : MonoBehaviour
 {
@@ -89,6 +91,16 @@ public class GameController : MonoBehaviour
     {
         ToggleTeamsDisplay(true);
         currentGame--;
+        currentGame = Mathf.Clamp(currentGame,0,GameData.Count);
+        gamesListController.SetCurrentGame(currentGame);
+        UpdateRunnerNames(currentGame);
+        Commentary.text = HOST + commentators[currentGame];
+    }
+
+    private void SelectGame(int gameID)
+    {
+        ToggleTeamsDisplay(false);
+        currentGame = gameID;
         currentGame = Mathf.Clamp(currentGame,0,GameData.Count);
         gamesListController.SetCurrentGame(currentGame);
         UpdateRunnerNames(currentGame);
