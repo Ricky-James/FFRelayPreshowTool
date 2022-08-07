@@ -97,7 +97,7 @@ public class GameController : MonoBehaviour
         Commentary.text = HOST + commentators[currentGame];
     }
 
-    private void SelectGame(int gameID)
+    public void SelectGame(int gameID)
     {
         ToggleTeamsDisplay(false);
         currentGame = gameID;
@@ -105,6 +105,7 @@ public class GameController : MonoBehaviour
         gamesListController.SetCurrentGame(currentGame);
         UpdateRunnerNames(currentGame);
         Commentary.text = HOST + commentators[currentGame];
+        gameState = 0;
     }
 
     private void UpdateRunnerNames(int gameID)
