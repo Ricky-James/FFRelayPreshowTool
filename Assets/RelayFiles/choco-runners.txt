@@ -1,71 +1,71 @@
-Final Fantasy VIII
-PSX - Any%
+Chocobo GP
+Switch - Any% Master
 Runner: Shug_ssb
 
-Final Fantasy Mystic Quest
-SNES - Any%
+Final Fantasy XII: The Zodiac Age
+PC - Any% No Seitengrat
 Runner: FumoFumoMeiling
 
 Final Fantasy X
-PC - Any%
+PC - No Sphere Grid
 Runner: CrimsonInferno9
 
-Final Fantasy XIII
-PC - Any%
+Final Fantasy IV
+PC - Pixel Remaster
 Runner: Olson
 
-Crystal Chronicles: Remastered
-Switch - Any% No DLC
+Final Fantasy Crystal Chronicles
+Gamecube - Any%
 Runner: Manaclaw
 
-World of Final Fantasy
-PC - Any%
+Final Fantasy II
+PC - Pixel Remaster
 Runner: Rotamota
 
 Final Fantasy XV: Royal Edition
-PC - Any% No Ring
+PS5 - Any% No Active Menu Glitch
+Runner: Rotamota
+
+Stranger of Paradise: Final Fantasy Origin
+PS5 - Any%
 Runner: Yidamoda
 
-Final Fantasy VI
-SNES - Glitchless
+Final Fantasy I
+PC - Pixel Remaster
 Runner: LionMusashi
 
-Final Fantasy XIII-2
-PS3 - Any%
+Final Fantasy VIII
+PC - Any%
 Runner: xShonnen
 
-Final Fantasy XII: The Zodiac Age
+World of Final Fantasy
 PC - Any%
 Runner: Roosta
 
-Final Fantasy II
-PSP - Any%
+Final Fantasy III
+PC - Pixel Remaster
 Runner: Patorikku13
 
-Final Fantasy IV
-SNES - No Credits Warp
+Final Fantasy VI
+SNES - Glitchless
 Runner: Vanni_van
 
-Final Fantasy VII: Remake
-PS5 - NMG Normal
+Final Fantasy V
+SNES - Any%
 Runner: Fhelwanger
 
-Final Fantasy V
-SNES - Glitchless
+Final Fantasy XIII
+PC - Any%
 Runner: Aexoden
 
-Final Fantasy I
-PSP - Any%
+Dirge of Cerberus: Final Fantasy VII
+PS2 - Any%
 Runner: Riles_G
 
-Lightning Returns: FF XIII
-PC - Any%
+Final Fantasy IX
+PS1 - Any%
 Runner: KingSPi
 
-Final Fantasy III
-PC - Any%
+Final Fantasy VII
+PS1 - Any%
 Runner: Poorscythe
-
-Final Fantasy IX
-PSX - Any%
-Runner: bombom

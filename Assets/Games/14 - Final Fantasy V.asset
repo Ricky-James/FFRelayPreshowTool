@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: 14 - Final Fantasy V
   m_EditorClassIdentifier: 
   Title: Final Fantasy V
-  Category: SNES - Glitchless
+  Category: SNES - Any%
   Selected: 0
+  Done: 0

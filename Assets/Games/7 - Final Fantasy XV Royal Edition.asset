@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: 7 - Final Fantasy XV Royal Edition
   m_EditorClassIdentifier: 
   Title: 'Final Fantasy XV: Royal Edition'
-  Category: PC - Any% No Ring
+  Category: PS5 - Any% No Active Menu Glitch
   Selected: 0
+  Done: 0

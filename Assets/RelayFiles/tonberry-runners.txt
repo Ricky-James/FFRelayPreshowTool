@@ -1,71 +1,71 @@
-Final Fantasy VIII
-PSX - Any%
-Runner: Muttski
+Chocobo GP
+Switch - Any% Master
+Runner: Shug_ssb
 
-Final Fantasy Mystic Quest
-SNES - Any%
-Runner: R-0109
+Final Fantasy XII: The Zodiac Age
+PC - Any% No Seitengrat
+Runner: FumoFumoMeiling
 
 Final Fantasy X
-PC - Any%
-Runner: Wolverine023
+PC - No Sphere Grid
+Runner: CrimsonInferno9
 
-Final Fantasy XIII
-PC - Any%
-Runner: Ossy3126
+Final Fantasy IV
+PC - Pixel Remaster
+Runner: Olson
 
-Crystal Chronicles: Remastered
-Switch - Any% No DLC
-Runner: VerySydney
+Final Fantasy Crystal Chronicles
+Gamecube - Any%
+Runner: Manaclaw
+
+Final Fantasy II
+PC - Pixel Remaster
+Runner: Rotamota
+
+Final Fantasy XV: Royal Edition
+PS5 - Any% No Active Menu Glitch
+Runner: Rotamota
+
+Stranger of Paradise: Final Fantasy Origin
+PS5 - Any%
+Runner: Yidamoda
+
+Final Fantasy I
+PC - Pixel Remaster
+Runner: LionMusashi
+
+Final Fantasy VIII
+PC - Any%
+Runner: xShonnen
 
 World of Final Fantasy
 PC - Any%
-Runner: BrainBugged
+Runner: Roosta
 
-Final Fantasy XV: Royal Edition
-PC - Any% No Ring
-Runner: Ranmaru
+Final Fantasy III
+PC - Pixel Remaster
+Runner: Patorikku13
 
 Final Fantasy VI
 SNES - Glitchless
-Runner: DyneNuitari
-
-Final Fantasy XIII-2
-PC - Any%
-Runner: zer0skar_i
-
-Final Fantasy XII: The Zodiac Age
-PC - Any%
-Runner: BlueHarvey
-
-Final Fantasy II
-PSP - Any%
-Runner: Seri17723
-
-Final Fantasy IV
-SNES - No Credits Warp
-Runner: yelsraek
-
-Final Fantasy VII: Remake
-PS5 - NMG Normal
-Runner: Goranaldo
+Runner: Vanni_van
 
 Final Fantasy V
-SNES - Glitchless
-Runner: るぱん (rupan2525)
+SNES - Any%
+Runner: Fhelwanger
 
-Final Fantasy I
-PSP - Any%
-Runner: Suikoboj
-
-Lightning Returns: FF XIII
+Final Fantasy XIII
 PC - Any%
-Runner: Daspharaoh
+Runner: Aexoden
 
-Final Fantasy III
-PC - Any%
-Runner: Soll_Ashelia
+Dirge of Cerberus: Final Fantasy VII
+PS2 - Any%
+Runner: Riles_G
 
 Final Fantasy IX
-PSX - Any%
-Runner: MythikdawnSC
+PS1 - Any%
+Runner: KingSPi
+
+Final Fantasy VII
+PS1 - Any%  
+Runner: Poorscythe
