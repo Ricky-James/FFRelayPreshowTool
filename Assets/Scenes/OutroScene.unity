@@ -743,8 +743,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0.11966777
+        time: 0.0039367676
+        value: 0.059838057
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1490,8 +1490,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0.11966777
+        time: 0.0039367676
+        value: 0.059838057
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2995,9 +2995,7 @@ MonoBehaviour:
     17
 
     Final
-    Fantasy Crystal Chronicles Remaster
-
-'
+    Fantasy Crystal Chronicles Remaster'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b624413338613d14bacf3c296848b66c, type: 2}
   m_sharedMaterial: {fileID: 8046351130364532205, guid: b624413338613d14bacf3c296848b66c, type: 2}
@@ -3540,62 +3538,62 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0075853a7ad182c41ab61915799b1085, type: 2}
   - {fileID: 11400000, guid: 5d9912ab8eb41ef42bb6130f8987829c, type: 2}
   MogRunners:
-  - {fileID: 11400000, guid: 87118d5960451d3429eb3fad28b5c7e9, type: 2}
-  - {fileID: 11400000, guid: 05726e6d7cf98014083f1c6c6e9110c1, type: 2}
-  - {fileID: 11400000, guid: ac5dd5c9bb83f0247853e8fdc38a7554, type: 2}
-  - {fileID: 11400000, guid: 464974758e65c27449fd541251f64a15, type: 2}
-  - {fileID: 11400000, guid: 13528d5bf070b10429e1785bf74b9e20, type: 2}
-  - {fileID: 11400000, guid: e404336de5f9bc7428188a7b7a35f1a6, type: 2}
-  - {fileID: 11400000, guid: 98f3fbdcc4a63a947937e28865a17d24, type: 2}
-  - {fileID: 11400000, guid: 6639d6a735b65294d9bab7dcd9d8a7f4, type: 2}
-  - {fileID: 11400000, guid: 1658f34b75aa249499a9c1bc5835f4bd, type: 2}
-  - {fileID: 11400000, guid: e4db46ed74ddaeb488bb8f00215660f6, type: 2}
-  - {fileID: 11400000, guid: f9e6faf78d9b53f43bdd0a0d2d490405, type: 2}
-  - {fileID: 11400000, guid: f63624e181d01a448b78aa908dc0d19b, type: 2}
-  - {fileID: 11400000, guid: 88f16a58f3fee7c49ab053272947abe2, type: 2}
-  - {fileID: 11400000, guid: ad289e77e661f78448bee7187da0d435, type: 2}
-  - {fileID: 11400000, guid: eb501dcf09738d64d99cbf28b5723ec3, type: 2}
-  - {fileID: 11400000, guid: 21de9df7c1c8a884385823ddb780c300, type: 2}
-  - {fileID: 11400000, guid: 5553db92e0da56f4cafbf5a7280d44cf, type: 2}
-  - {fileID: 11400000, guid: e251377ca0643084fb3d51dad5d62c9f, type: 2}
+  - {fileID: 11400000, guid: e3d41e8e2a7cfd74ab68de6b47f85491, type: 2}
+  - {fileID: 11400000, guid: 400d327d1520ec34bafefb46d3c31497, type: 2}
+  - {fileID: 11400000, guid: ea07330a863217749b7220c52fd7e074, type: 2}
+  - {fileID: 11400000, guid: 65b8f8da85797e14eb56534d76577963, type: 2}
+  - {fileID: 11400000, guid: 914b7cfd6a5b45249a4a328ec5a4341e, type: 2}
+  - {fileID: 11400000, guid: 3db23fcfc7094f54fa0d91afe7aa9b26, type: 2}
+  - {fileID: 11400000, guid: 61f711e27ad49bd4aa5db5f71a128fac, type: 2}
+  - {fileID: 11400000, guid: 83974cd83b60166419fd592b58735ea1, type: 2}
+  - {fileID: 11400000, guid: 31cbba9a94ba52d459cb502e1dfc47d6, type: 2}
+  - {fileID: 11400000, guid: e23b6d56b7a5ac54db73de5fd2add66c, type: 2}
+  - {fileID: 11400000, guid: 23c3ee36af8251d4b9fc0a0412e85ef2, type: 2}
+  - {fileID: 11400000, guid: 8008dfe149761834bb4625f2bc980f9f, type: 2}
+  - {fileID: 11400000, guid: e23e7781146d46048b6dce72ffef92f5, type: 2}
+  - {fileID: 11400000, guid: b7739b5a8d473f046882792bbf7a23cd, type: 2}
+  - {fileID: 11400000, guid: 46e628ec595160a47be4b0c0b43b49f7, type: 2}
+  - {fileID: 11400000, guid: d986dd503aab95b4f8f5a99749e1815a, type: 2}
+  - {fileID: 11400000, guid: a527e24e39f9f7b40a04c8d18200e311, type: 2}
+  - {fileID: 11400000, guid: 1a08c6e5583fe284e8e8fe8e88f69816, type: 2}
   ChocoRunners:
-  - {fileID: 11400000, guid: 14df1cba80e6fad41b35d261bb4065cb, type: 2}
-  - {fileID: 11400000, guid: c6b5e85595d85214c9d6ea6b71f6e8d2, type: 2}
-  - {fileID: 11400000, guid: 8868ea8e512c043408ce57187cd91602, type: 2}
-  - {fileID: 11400000, guid: 66f370dbe40c791439a280c1f2c5dba9, type: 2}
-  - {fileID: 11400000, guid: 78ee33b5e84b1d94ab8e86874b4321d6, type: 2}
-  - {fileID: 11400000, guid: 0ea5340c903f345458f58cd765780b45, type: 2}
-  - {fileID: 11400000, guid: 7e316bd39511dba43b5044949377aa0e, type: 2}
-  - {fileID: 11400000, guid: 07ca99b7627d2b945a8b840f07c6a259, type: 2}
-  - {fileID: 11400000, guid: 304fe964f1b816443a2dc85030dbf546, type: 2}
-  - {fileID: 11400000, guid: c2b0caac4b4c8a147906629ebb417e3c, type: 2}
-  - {fileID: 11400000, guid: 0be4035f9b195844785a337ff73cdabd, type: 2}
-  - {fileID: 11400000, guid: e5e44f31538ab7d4091067204146a0a5, type: 2}
-  - {fileID: 11400000, guid: 7bc8cb9fb13fa114092a83f8bfdeb90d, type: 2}
-  - {fileID: 11400000, guid: 2677241c379014b41a55d1cecad5f915, type: 2}
-  - {fileID: 11400000, guid: c16b38e372c39e3499f9e2fc235e7f08, type: 2}
-  - {fileID: 11400000, guid: e1b76da83a8f42347af64eeed7696da9, type: 2}
-  - {fileID: 11400000, guid: e2addd87ee4d7b0499a559a5eb7828b2, type: 2}
-  - {fileID: 11400000, guid: 0e6addf508c8bfa42a3a13c437e5302d, type: 2}
+  - {fileID: 11400000, guid: ddef482fbba137544a7fb8fb936e8980, type: 2}
+  - {fileID: 11400000, guid: fe7ea0f8fb81b1542a0753a979066e9d, type: 2}
+  - {fileID: 11400000, guid: 83ef664c07b5d4b42af51749fd9806cd, type: 2}
+  - {fileID: 11400000, guid: 2abd1922c025ddb41a5a3b01be582246, type: 2}
+  - {fileID: 11400000, guid: cdb1e5cb217c96e48931c0ea174062c0, type: 2}
+  - {fileID: 11400000, guid: 75bed9b9447f25c4886a50f38e0c6a43, type: 2}
+  - {fileID: 11400000, guid: 8381600d0a9ce7544b150eae1c3e2864, type: 2}
+  - {fileID: 11400000, guid: b36ddc2d0d1973145bd96f0ff87dc60f, type: 2}
+  - {fileID: 11400000, guid: 733d4f32b6b21ce48a034039201acdaa, type: 2}
+  - {fileID: 11400000, guid: c0638ac3042317e4ca50560a59af739a, type: 2}
+  - {fileID: 11400000, guid: 2bb21b581e7e45a4cb00a8845e81eaf3, type: 2}
+  - {fileID: 11400000, guid: c20c75c6505752148bc311da8e748aa0, type: 2}
+  - {fileID: 11400000, guid: 88031694eb6156448b7bd7bbaf66b895, type: 2}
+  - {fileID: 11400000, guid: 5db1fb1273a578646b767a10cb822029, type: 2}
+  - {fileID: 11400000, guid: 3b01c5f5cd3879e4a9870215ea1f5cd6, type: 2}
+  - {fileID: 11400000, guid: 7fe7373ceb0bd154fb1d3d207f6fda95, type: 2}
+  - {fileID: 11400000, guid: 92d862752f817854ab5501b4d530f8b4, type: 2}
+  - {fileID: 11400000, guid: e043f5bf2f569e1408bcec84aa1a1d4c, type: 2}
   TonberryRunners:
-  - {fileID: 11400000, guid: 6f83eaefd01cb8e46af56d30226d6d2b, type: 2}
-  - {fileID: 11400000, guid: 36982a57be3bc7441915ee1a29c37634, type: 2}
-  - {fileID: 11400000, guid: 5b335be0572fd8c47aada8418d763e0c, type: 2}
-  - {fileID: 11400000, guid: 2460c72f230527d46b349e59466927a3, type: 2}
-  - {fileID: 11400000, guid: 3758440185bc13e40aec600313eca372, type: 2}
-  - {fileID: 11400000, guid: 010eda108fdd7d3489013ba3a0bae913, type: 2}
-  - {fileID: 11400000, guid: ef0210d489494774ab59f78576850158, type: 2}
-  - {fileID: 11400000, guid: 7d7ad6dbe9fc13a4da639fdd1d954b97, type: 2}
-  - {fileID: 11400000, guid: 89a873518d9192640b5d86c3f95d1ff6, type: 2}
-  - {fileID: 11400000, guid: 2c742bccc043fb74daf1a32bdc96588e, type: 2}
-  - {fileID: 11400000, guid: 913dcc9e166ef364988ef16981cd32db, type: 2}
-  - {fileID: 11400000, guid: 94a450079765b214f8b895cfcc844254, type: 2}
-  - {fileID: 11400000, guid: 946c549bbb6383e4cb7bad84c6346c7f, type: 2}
-  - {fileID: 11400000, guid: 1794c6be3d0c6914299f58beb7de9e07, type: 2}
-  - {fileID: 11400000, guid: 4ff9325fb6521f84f9d242416be33bd1, type: 2}
-  - {fileID: 11400000, guid: 66838c19de0ec8b4eb5c8e45b34da516, type: 2}
-  - {fileID: 11400000, guid: ac8ddf230e6b7004e822cc428a05c5eb, type: 2}
-  - {fileID: 11400000, guid: 7582ee0efd0b2ab41aca8d9b03b77cee, type: 2}
+  - {fileID: 11400000, guid: 29c1d97eafd24c94e89589d5343c8343, type: 2}
+  - {fileID: 11400000, guid: 8bbf38129a46c254fb348482c94ec5cb, type: 2}
+  - {fileID: 11400000, guid: 899e3626e021b8c4f81ff1882a2c51a7, type: 2}
+  - {fileID: 11400000, guid: 9a9ec3f74e52f3b46adebe9c5d025580, type: 2}
+  - {fileID: 11400000, guid: b09f69a07f8a96541a3939fbee2d5a98, type: 2}
+  - {fileID: 11400000, guid: c25a854a71404a445b676bce3574ca91, type: 2}
+  - {fileID: 11400000, guid: 7336805ec80da1945a7d72f9eccb9442, type: 2}
+  - {fileID: 11400000, guid: 2a94c849f27f00e43bac425035ca2f82, type: 2}
+  - {fileID: 11400000, guid: a3519e45d7126874bac8f9c85ad34656, type: 2}
+  - {fileID: 11400000, guid: 3c0bfd12a5189eb469fc47a63e3b3c74, type: 2}
+  - {fileID: 11400000, guid: 025da04953eb2d4429cc4b62896f4ae0, type: 2}
+  - {fileID: 11400000, guid: a7bf248feb21ed04f9e8252d053d4434, type: 2}
+  - {fileID: 11400000, guid: b49065276a301cb4ba0948b0ff94e7be, type: 2}
+  - {fileID: 11400000, guid: 8f7248a7e6e14b94cb76f7612764dcb1, type: 2}
+  - {fileID: 11400000, guid: d8af83cb07dde25478533b0d951688ac, type: 2}
+  - {fileID: 11400000, guid: de0507d8212b38f44a9c92faef22e0b1, type: 2}
+  - {fileID: 11400000, guid: a502269da507bc547a40c173ca4171d9, type: 2}
+  - {fileID: 11400000, guid: f49f8b80c4ddc644281fa2a1a8ba81a1, type: 2}
 --- !u!114 &1216582561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3888,8 +3886,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0.11966777
+        time: 0.0039367676
+        value: 0.059838057
         inSlope: 0
         outSlope: 0
         tangentMode: 0

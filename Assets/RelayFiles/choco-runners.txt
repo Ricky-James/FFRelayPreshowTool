@@ -1,71 +1,71 @@
 Chocobo GP
 Switch - Any% Master
-Runner: Shug_ssb
+Runner: kariohki
 
 Final Fantasy XII: The Zodiac Age
 PC - Any% No Seitengrat
-Runner: FumoFumoMeiling
+Runner: desa
 
 Final Fantasy X
 PC - No Sphere Grid
-Runner: CrimsonInferno9
+Runner: Koinu93
 
 Final Fantasy IV
 PC - Pixel Remaster
-Runner: Olson
+Runner: KaguyaNicky
 
 Final Fantasy Crystal Chronicles
 Gamecube - Any%
-Runner: Manaclaw
+Runner: VerySydney
 
 Final Fantasy II
 PC - Pixel Remaster
-Runner: Rotamota
+Runner: Talbrik
 
 Final Fantasy XV: Royal Edition
 PS5 - Any% No Active Menu Glitch
-Runner: Rotamota
+Runner: Matty_Ice_86
 
 Stranger of Paradise: Final Fantasy Origin
 PS5 - Any%
-Runner: Yidamoda
+Runner: relxert
 
 Final Fantasy I
 PC - Pixel Remaster
-Runner: LionMusashi
+Runner: patorikku13
 
 Final Fantasy VIII
 PC - Any%
-Runner: xShonnen
+Runner: awesomeWaves
 
 World of Final Fantasy
 PC - Any%
-Runner: Roosta
+Runner: BrainBugged
 
 Final Fantasy III
 PC - Pixel Remaster
-Runner: Patorikku13
+Runner: 6chi8
 
 Final Fantasy VI
 SNES - Glitchless
-Runner: Vanni_van
+Runner: Im_Nightshade
 
 Final Fantasy V
 SNES - Any%
-Runner: Fhelwanger
+Runner: Aexoden
 
 Final Fantasy XIII
 PC - Any%
-Runner: Aexoden
+Runner: Z3R01337
 
 Dirge of Cerberus: Final Fantasy VII
 PS2 - Any%
-Runner: Riles_G
+Runner: NT
 
 Final Fantasy IX
 PS1 - Any%
-Runner: KingSPi
+Runner: Wisteria_paon
 
 Final Fantasy VII
 PS1 - Any%
-Runner: Poorscythe
+Runner: RJTheDestroyer
