@@ -28,6 +28,9 @@ public class GameController : MonoBehaviour
     [SerializeField] private TMP_Text[] TeamRunnerNames;
     [SerializeField] private TMP_Text Commentary;
     [SerializeField] private Image commentaryIcon;
+    [SerializeField] private SpriteRenderer[] StreamIcons;
+    [SerializeField] private Sprite TwitchIcon;
+    [SerializeField] private Sprite YouTubeIcon;
 
     public List<Game_SO> GameData = new();
     public List<Runner_SO> MogRunners = new();
@@ -79,7 +82,7 @@ public class GameController : MonoBehaviour
             // Display the next team's runner and icon
             TeamIcons[gameState - 1].SetActive(true);
             TeamNames[gameState - 1].enabled = true;
-            TeamRunnerNames[gameState - 1].enabled = true;
+            TeamRunnerNames[gameState - 1].gameObject.SetActive(true);;
         }
     }
 
@@ -107,9 +110,18 @@ public class GameController : MonoBehaviour
 
     private void UpdateRunnerNames(int gameID)
     {
-        TeamRunnerNames[MOG].text = MogRunners[gameID].Name;
-        TeamRunnerNames[CHOCO].text = ChocoRunners[gameID].Name;
-        TeamRunnerNames[TONBERRY].text = TonberryRunners[gameID].Name;
+        TeamRunnerNames[MOG].text = MogRunners[gameID].Name + "\n<size=70%>     " + MogRunners[gameID].StreamName + "</size>";
+        TeamRunnerNames[CHOCO].text = ChocoRunners[gameID].Name + "\n<size=70%>     " + ChocoRunners[gameID].StreamName + "</size>";
+        TeamRunnerNames[TONBERRY].text = TonberryRunners[gameID].Name + "\n<size=70%>     " + TonberryRunners[gameID].StreamName + "</size>";
+        StreamIcons[MOG].sprite = MogRunners[gameID].streamService == Runner_SO.StreamService.Twitch
+            ? TwitchIcon
+            : YouTubeIcon;
+        StreamIcons[CHOCO].sprite = ChocoRunners[gameID].streamService == Runner_SO.StreamService.Twitch
+            ? TwitchIcon
+            : YouTubeIcon;
+        StreamIcons[TONBERRY].sprite = TonberryRunners[gameID].streamService == Runner_SO.StreamService.Twitch
+            ? TwitchIcon
+            : YouTubeIcon;
     }
 
     private void ToggleTeamsDisplay(bool active)
@@ -118,7 +130,7 @@ public class GameController : MonoBehaviour
         {
             TeamIcons[i].SetActive(active);
             TeamNames[i].enabled = active;
-            TeamRunnerNames[i].enabled = active;
+            TeamRunnerNames[i].gameObject.SetActive(active);
         }
     }
     

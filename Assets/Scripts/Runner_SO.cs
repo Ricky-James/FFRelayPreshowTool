@@ -20,6 +20,7 @@ public class Runner_SO : ScriptableObject
     }
     
     public string Name;
+    public string StreamName;
     public Team team;
     public Image flag;
     public StreamService streamService;

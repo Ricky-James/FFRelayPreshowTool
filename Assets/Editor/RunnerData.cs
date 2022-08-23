@@ -81,7 +81,7 @@ public class RunnerData
         
         for(int i = 0; i < runners.Length; i++)
         {
-            string runnerName = runners[i].Remove(0, 7);
+            string runnerName = runners[i].Remove(0, 8);
             runnerObject[i] = ScriptableObject.CreateInstance<Runner_SO>();
             runnerObject[i].Name = runnerName;
             runnerObject[i].team = team;
