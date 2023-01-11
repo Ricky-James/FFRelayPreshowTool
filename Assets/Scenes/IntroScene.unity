@@ -1395,7 +1395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1216582560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1422,6 +1422,9 @@ MonoBehaviour:
   - {fileID: 0}
   Commentary: {fileID: 0}
   commentaryIcon: {fileID: 0}
+  StreamIcons: []
+  TwitchIcon: {fileID: 0}
+  YouTubeIcon: {fileID: 0}
   GameData:
   - {fileID: 11400000, guid: 03366bc3458857443b69ade6889de7d5, type: 2}
   - {fileID: 11400000, guid: d8f3608a727d1ab44996be53765a77e0, type: 2}

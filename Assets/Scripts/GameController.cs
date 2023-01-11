@@ -23,9 +23,10 @@ public class GameController : MonoBehaviour
 
     private GamesListController gamesListController;
 
-    [SerializeField] private GameObject[] TeamIcons;
-    [SerializeField] private TMP_Text[] TeamNames;
-    [SerializeField] private TMP_Text[] TeamRunnerNames;
+    [SerializeField] private GameObject[] TeamIcons = new GameObject[3];
+    [SerializeField] private TMP_Text[] TeamNames = new TMP_Text[3];
+    [SerializeField] private TMP_Text[] TeamRunnerNames = new TMP_Text[3];
+    [SerializeField] private SpriteRenderer[] TeamFlags = new SpriteRenderer[3];
     [SerializeField] private TMP_Text Commentary;
     [SerializeField] private Image commentaryIcon;
     [SerializeField] private SpriteRenderer[] StreamIcons;
@@ -50,8 +51,6 @@ public class GameController : MonoBehaviour
         {
             // Set first game
             ToggleTeamsDisplay(false);
-            // gamesListController.SetCurrentGame(currentGame);
-            // UpdateRunnerNames(currentGame);
             Commentary.text = "";
             commentaryIcon.enabled = false;
        
@@ -110,9 +109,17 @@ public class GameController : MonoBehaviour
 
     private void UpdateRunnerNames(int gameID)
     {
-        TeamRunnerNames[MOG].text = MogRunners[gameID].Name + "\n<size=70%>     " + MogRunners[gameID].StreamName + "</size>";
-        TeamRunnerNames[CHOCO].text = ChocoRunners[gameID].Name + "\n<size=70%>     " + ChocoRunners[gameID].StreamName + "</size>";
-        TeamRunnerNames[TONBERRY].text = TonberryRunners[gameID].Name + "\n<size=70%>     " + TonberryRunners[gameID].StreamName + "</size>";
+        // Assign names and stream names
+        TeamRunnerNames[MOG].text = MogRunners[gameID].Name + "\n<size=70%>" + MogRunners[gameID].StreamName + "</size>";
+        TeamRunnerNames[CHOCO].text = ChocoRunners[gameID].Name + "\n<size=70%>" + ChocoRunners[gameID].StreamName + "</size>";
+        TeamRunnerNames[TONBERRY].text = TonberryRunners[gameID].Name + "\n<size=70%>" + TonberryRunners[gameID].StreamName + "</size>";
+        
+        // Assign flag
+        TeamFlags[MOG].sprite = MogRunners[gameID].flag;
+        TeamFlags[CHOCO].sprite = ChocoRunners[gameID].flag;
+        TeamFlags[TONBERRY].sprite = TonberryRunners[gameID].flag;
+        
+        // Assign stream icon
         StreamIcons[MOG].sprite = MogRunners[gameID].streamService == Runner_SO.StreamService.Twitch
             ? TwitchIcon
             : YouTubeIcon;

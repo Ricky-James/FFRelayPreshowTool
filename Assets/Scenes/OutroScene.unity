@@ -2130,7 +2130,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ---<size=125%>T</size>HE <size=125%>P</size>RESHOW---
+  m_text: TWITCH.TV/RPGLIMITBREAK
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 34b89c0c21d0ceb4fa6aadc5743e56ab, type: 2}
   m_sharedMaterial: {fileID: 4045635792633875209, guid: 34b89c0c21d0ceb4fa6aadc5743e56ab, type: 2}
@@ -3446,6 +3446,9 @@ MonoBehaviour:
   - {fileID: 375474653}
   Commentary: {fileID: 136788215}
   commentaryIcon: {fileID: 230166784}
+  StreamIcons: []
+  TwitchIcon: {fileID: 0}
+  YouTubeIcon: {fileID: 0}
   GameData:
   - {fileID: 11400000, guid: 03366bc3458857443b69ade6889de7d5, type: 2}
   - {fileID: 11400000, guid: d8f3608a727d1ab44996be53765a77e0, type: 2}
