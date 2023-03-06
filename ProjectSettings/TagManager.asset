@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - VFX
-  - 
+  - Video
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 1541404899
+    locked: 0
+  - name: Videos
+    uniqueID: 339254711
     locked: 0
