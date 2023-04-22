@@ -15,5 +15,5 @@ MonoBehaviour:
   Name: HabKeineName
   StreamName: HabKeineName
   team: 2
-  flag: {fileID: 0}
+  flag: {fileID: 21300000, guid: ce99d4d6fcc772a44aa8ce42a8fbf7c5, type: 3}
   streamService: 0

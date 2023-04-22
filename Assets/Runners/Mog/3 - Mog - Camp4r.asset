@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 3 - Mog - Camp4r
   m_EditorClassIdentifier: 
   Name: Camp4r
-  StreamName: Camp4r
+  StreamName: 
   team: 1
-  flag: {fileID: 0}
+  flag: {fileID: 21300000, guid: 4e2bd8b4f8ecd4943b66fc451f8eceb6, type: 3}
   streamService: 0

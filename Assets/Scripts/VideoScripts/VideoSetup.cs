@@ -84,9 +84,12 @@ public class VideoSetup : MonoBehaviour
     
     private void OnVideoEnd(VideoPlayer source)
     {
-        StopButton();
-        TogglePlayButtons();
-        ToggleBackground();
+        if (!source.isLooping)
+        {
+            StopButton();
+            TogglePlayButtons();
+            ToggleBackground();
+        }
     }
 
     private void OnDropdownChange(TMP_Dropdown dropdown)

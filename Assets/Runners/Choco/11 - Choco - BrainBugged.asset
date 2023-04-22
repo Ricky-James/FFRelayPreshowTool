@@ -15,5 +15,5 @@ MonoBehaviour:
   Name: BrainBugged
   StreamName: BrainBugged_
   team: 0
-  flag: {fileID: 0}
+  flag: {fileID: 21300000, guid: 5906376859f7c4d4599120e2ef9cafa5, type: 3}
   streamService: 0
