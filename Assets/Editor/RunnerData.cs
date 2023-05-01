@@ -41,10 +41,14 @@ public class RunnerData
         string[] mogNames = GetRunnerNames(MogPath);
         string[] chocoNames = GetRunnerNames(ChocoPath);
         string[] tonberryNames = GetRunnerNames(TonberryPath);
+
+        string[] mogPronouns = GetRunnerPronouns(MogPath);
+        string[] chocoPronouns = GetRunnerPronouns(ChocoPath);
+        string[] tonberryPronouns = GetRunnerPronouns(TonberryPath);
         
-        CreateRunnerObjects(MogRunners, mogNames, Team.Mog);
-        CreateRunnerObjects(ChocoRunners, chocoNames, Team.Choco);
-        CreateRunnerObjects(TonberryRunners, tonberryNames, Team.Tonberry);
+        CreateRunnerObjects(MogRunners, mogNames, mogPronouns, Team.Mog);
+        CreateRunnerObjects(ChocoRunners, chocoNames, chocoPronouns, Team.Choco);
+        CreateRunnerObjects(TonberryRunners, tonberryNames, tonberryPronouns, Team.Tonberry);
     }
 
     private static int NumberOfRunners()
@@ -69,14 +73,38 @@ public class RunnerData
         {
             if (i % 4 == 2)
             {
-                runners[index] = text[i];
+                string RegexPronouns = @"\([\w/]+\)";
+                //runners[index] = text[i];
+                runners[index] = Regex.Replace(text[i], RegexPronouns, "").TrimEnd(' ');
+                //runners[index] = runners[index].TrimEnd(' ');
                 index++;
             }
         }
         return runners;
     }
 
-    private static void CreateRunnerObjects(Runner_SO[] runnerObject, string[] runners, Team team)
+    private static string[] GetRunnerPronouns(string path)
+    {
+        string[] text = File.ReadAllLines(path);
+        string[] pronouns = new string[NumberOfRunners()];
+
+        for (int i = 0, index = 0; i < text.Length; i++)
+        {
+            if (i % 4 == 2)
+            {
+                string RegexPronouns = @"\(([^)]+)\)";
+
+                //pronouns[index] = Regex.IsMatch(text[i], RegexPronouns) ? Regex.Match(text[i], RegexPronouns).Groups[1].Value : "";
+                pronouns[index] = Regex.Match(text[i], RegexPronouns).Groups[1].Value;
+                //pronouns[index].TrimStart('(');
+                //pronouns[index].TrimEnd(')');
+                index++;
+            }
+        }
+        return pronouns;
+    }
+
+    private static void CreateRunnerObjects(Runner_SO[] runnerObject, string[] runners, string[] pronouns, Team team)
     {
         
         for(int i = 0; i < runners.Length; i++)
@@ -85,6 +113,7 @@ public class RunnerData
             runnerObject[i] = ScriptableObject.CreateInstance<Runner_SO>();
             runnerObject[i].Name = runnerName;
             runnerObject[i].team = team;
+            runnerObject[i].Pronouns = pronouns[i];
             runnerObject[i].streamService = StreamService.Twitch; // If different, manually configure in Inspector
  
             runnerName = Regex.Replace(runnerName, fileNameConstraints, "");

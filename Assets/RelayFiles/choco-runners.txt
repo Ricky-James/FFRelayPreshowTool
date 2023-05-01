@@ -1,71 +1,71 @@
-Chocobo GP
-Switch - Any% Master
-Runner: kariohki
+Final Fantasy VIII
+PSX - Any%
+Runner: Shug_ssb (She/Her)
 
-Final Fantasy XII: The Zodiac Age
-PC - Any% No Seitengrat
-Runner: desa
+Final Fantasy Mystic Quest
+SNES - Any%
+Runner: FumoFumoMeiling (She/Her)
 
 Final Fantasy X
-PC - No Sphere Grid
-Runner: Koinu93
-
-Final Fantasy IV
-PC - Pixel Remaster
-Runner: KaguyaNicky
-
-Final Fantasy Crystal Chronicles
-Gamecube - Any%
-Runner: VerySydney
-
-Final Fantasy II
-PC - Pixel Remaster
-Runner: Talbrik
-
-Final Fantasy XV: Royal Edition
-PS5 - Any% No Active Menu Glitch
-Runner: Matty_Ice_86
-
-Stranger of Paradise: Final Fantasy Origin
-PS5 - Any%
-Runner: relxert
-
-Final Fantasy I
-PC - Pixel Remaster
-Runner: patorikku13
-
-Final Fantasy VIII
 PC - Any%
-Runner: awesomeWaves
-
-World of Final Fantasy
-PC - Any%
-Runner: BrainBugged
-
-Final Fantasy III
-PC - Pixel Remaster
-Runner: 6chi8
-
-Final Fantasy VI
-SNES - Glitchless
-Runner: Im_Nightshade
-
-Final Fantasy V
-SNES - Any%
-Runner: Aexoden
+Runner: CrimsonInferno9 (She/Her)
 
 Final Fantasy XIII
 PC - Any%
-Runner: Z3R01337
+Runner: Olson (She/Her)
 
-Dirge of Cerberus: Final Fantasy VII
-PS2 - Any%
-Runner: NT
+Crystal Chronicles: Remastered
+Switch - Any% No DLC
+Runner: Manaclaw (She/Her)
+
+World of Final Fantasy
+PC - Any%
+Runner: Rotamota (She/Her)
+
+Final Fantasy XV: Royal Edition
+PC - Any% No Ring
+Runner: Yidamoda (She/Her)
+
+Final Fantasy VI
+SNES - Glitchless
+Runner: LionMusashi (She/Her)
+
+Final Fantasy XIII-2
+PS3 - Any%
+Runner: xShonnen (She/Her)
+
+Final Fantasy XII: The Zodiac Age
+PC - Any%
+Runner: Roosta (She/Her)
+
+Final Fantasy II
+PSP - Any%
+Runner: Patorikku13 (She/Her)
+
+Final Fantasy IV
+SNES - No Credits Warp
+Runner: Vanni_van
+
+Final Fantasy VII: Remake
+PS5 - NMG Normal
+Runner: Fhelwanger
+
+Final Fantasy V
+SNES - Glitchless
+Runner: Aexoden
+
+Final Fantasy I
+PSP - Any%
+Runner: Riles_G
+
+Lightning Returns: FF XIII
+PC - Any%
+Runner: KingSPi
+
+Final Fantasy III
+PC - Any%
+Runner: Poorscythe
 
 Final Fantasy IX
-PS1 - Any%
-Runner: Wisteria_paon
-
-Final Fantasy VII
-PS1 - Any%
-Runner: RJTheDestroyer
+PSX - Any%
+Runner: bombom

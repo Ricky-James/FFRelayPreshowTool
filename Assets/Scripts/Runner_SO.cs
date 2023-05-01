@@ -21,6 +21,7 @@ public class Runner_SO : ScriptableObject
     
     public string Name;
     public string StreamName;
+    public string Pronouns;
     public Team team;
     public Sprite flag;
     public StreamService streamService;

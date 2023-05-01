@@ -90,7 +90,8 @@ public class GameController : MonoBehaviour
         ToggleTeamsDisplay(false);
         currentGame++;
         gamesListController.SetCurrentGame(currentGame);
-        UpdateRunnerNames(currentGame);
+        UpdateRunners(currentGame);
+        
         Commentary.text = HOST + commentators[currentGame];
     }
 
@@ -100,25 +101,50 @@ public class GameController : MonoBehaviour
         currentGame = gameID;
         currentGame = Mathf.Clamp(currentGame,0,GameData.Count);
         gamesListController.SetCurrentGame(currentGame);
-        UpdateRunnerNames(currentGame);
+        UpdateRunners(currentGame);
         Commentary.text = HOST + commentators[currentGame];
         gameState = 0;
         gamesDoneCount = GameData.Count(game => game.Done);
         commentaryIcon.enabled = true;
     }
 
-    private void UpdateRunnerNames(int gameID)
+    private void UpdateRunners(int gameID)
     {
-        // Assign names and stream names
-        TeamRunnerNames[MOG].text = MogRunners[gameID].Name + "\n<size=70%>" + MogRunners[gameID].StreamName + "</size>";
-        TeamRunnerNames[CHOCO].text = ChocoRunners[gameID].Name + "\n<size=70%>" + ChocoRunners[gameID].StreamName + "</size>";
-        TeamRunnerNames[TONBERRY].text = TonberryRunners[gameID].Name + "\n<size=70%>" + TonberryRunners[gameID].StreamName + "</size>";
+        // Assign names
+        TeamRunnerNames[MOG].text = MogRunners[gameID].Name;
+        TeamRunnerNames[CHOCO].text = ChocoRunners[gameID].Name;
+        TeamRunnerNames[TONBERRY].text = TonberryRunners[gameID].Name;
+
+        // Assign stream names
+        TeamRunnerNames[MOG].text += "\n<size=30%>" + MogRunners[gameID].StreamName;// + "</size>";
+        TeamRunnerNames[CHOCO].text += "\n<size=30%>" + ChocoRunners[gameID].StreamName;// + "</size>";
+        TeamRunnerNames[TONBERRY].text += "\n<size=30%>" + TonberryRunners[gameID].StreamName;// + "</size>";
+
+        // Assign pronouns
+        if (MogRunners[gameID].Pronouns != "")
+        {
+            TeamRunnerNames[MOG].text += "\n" + MogRunners[gameID].Pronouns + "</size>";
+        }
+        if (MogRunners[gameID].Pronouns != "")
+        {
+            TeamRunnerNames[CHOCO].text += "\n" + ChocoRunners[gameID].Pronouns + "</size>";
+        }
+        if (MogRunners[gameID].Pronouns != "")
+        {
+            TeamRunnerNames[TONBERRY].text += "\n" + TonberryRunners[gameID].Pronouns + "</size>";
+        }
         
+        UpdateRunnerIcons(currentGame);
+    }
+
+    // Flag and Stream icons
+    private void UpdateRunnerIcons(int gameID)
+    {
         // Assign flag
         TeamFlags[MOG].sprite = MogRunners[gameID].flag;
         TeamFlags[CHOCO].sprite = ChocoRunners[gameID].flag;
         TeamFlags[TONBERRY].sprite = TonberryRunners[gameID].flag;
-        
+
         // Assign stream icon
         StreamIcons[MOG].sprite = MogRunners[gameID].streamService == Runner_SO.StreamService.Twitch
             ? TwitchIcon
