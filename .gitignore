@@ -10,8 +10,11 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
-/[Aa]ssets/[Rr]unners/
-/[Aa]ssets/[Vv]acuumShaders/
+# Generated Scriptable Objects
+/[Aa]ssets/Runners/
+
+# Closed source
+/[Aa]ssets/Shaders/ThirdParty/
 
 # Video clips
 /[Aa]ssets/StreamingAssets/
