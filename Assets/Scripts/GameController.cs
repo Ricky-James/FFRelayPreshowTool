@@ -16,9 +16,9 @@ public class GameController : MonoBehaviour
 
     private const string HOST = "ChrisTenarium\n";
 
-    private readonly string[] commentators = {"GroggyDog", "desa35", "Camp4r", "KaguyaNicky", "Manaclaw", "Deln", "Kyoslilmonster", "FellVisage",
-        "Thunderclaude", "Soph", "CrimsonInferno9", "zer0skar_I", "Dyne_Nuitari", "Mrzwanzig",
-        "Kayarune", "DECosmic", "thebroodles", "Muttski" };
+    private readonly string[] commentators = {"AdrianMamba", "Talbrik", "BrainBugged", "KingSPi", "KeeperBK", "FoxyJira", "eLmaGus", "Desch",
+        "Z3R01337", "sonicglenjamin", "IonicKarma", "Roosta", "Woady", "Kyoslilmonster",
+        "daspharaoh", "thebroodles", "Mel", "MrZwanzig", "Bdewd" };
 
 
     private GamesListController gamesListController;
@@ -111,15 +111,24 @@ public class GameController : MonoBehaviour
     private void UpdateRunners(int gameID)
     {
         // Assign names
-        TeamRunnerNames[MOG].text = MogRunners[gameID].Name;
-        TeamRunnerNames[CHOCO].text = ChocoRunners[gameID].Name;
-        TeamRunnerNames[TONBERRY].text = TonberryRunners[gameID].Name;
+        TeamRunnerNames[MOG].text = MogRunners[gameID].Name + "<size=30%>";
+        TeamRunnerNames[CHOCO].text = ChocoRunners[gameID].Name + "<size=30%>";
+        TeamRunnerNames[TONBERRY].text = TonberryRunners[gameID].Name + "<size=30%>";
 
         // Assign stream names
-        TeamRunnerNames[MOG].text += "\n<size=30%>" + MogRunners[gameID].StreamName;// + "</size>";
-        TeamRunnerNames[CHOCO].text += "\n<size=30%>" + ChocoRunners[gameID].StreamName;// + "</size>";
-        TeamRunnerNames[TONBERRY].text += "\n<size=30%>" + TonberryRunners[gameID].StreamName;// + "</size>";
-
+        if (MogRunners[gameID].StreamName != "")
+        {
+            TeamRunnerNames[MOG].text += "\n" + MogRunners[gameID].StreamName;
+        }
+        if (ChocoRunners[gameID].StreamName != "")
+        {
+            TeamRunnerNames[CHOCO].text += "\n" + ChocoRunners[gameID].StreamName;
+        }
+        if (TonberryRunners[gameID].StreamName != "")
+        {
+            TeamRunnerNames[TONBERRY].text += "\n" + TonberryRunners[gameID].StreamName;
+        }
+        
         // Assign pronouns
         if (MogRunners[gameID].Pronouns != "")
         {
