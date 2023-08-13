@@ -125,11 +125,11 @@ public class GameController : MonoBehaviour
         {
             TeamRunnerNames[MOG].text += "\n" + MogRunners[gameID].Pronouns + "</size>";
         }
-        if (MogRunners[gameID].Pronouns != "")
+        if (ChocoRunners[gameID].Pronouns != "")
         {
             TeamRunnerNames[CHOCO].text += "\n" + ChocoRunners[gameID].Pronouns + "</size>";
         }
-        if (MogRunners[gameID].Pronouns != "")
+        if (TonberryRunners[gameID].Pronouns != "")
         {
             TeamRunnerNames[TONBERRY].text += "\n" + TonberryRunners[gameID].Pronouns + "</size>";
         }
