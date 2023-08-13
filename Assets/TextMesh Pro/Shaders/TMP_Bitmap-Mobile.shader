@@ -1,4 +1,4 @@
-Shader "TextMeshPro/Mobile/Bitmap" {
+Shader "TextMeshPro/Mobile/Bitmap_Mog" {
 
 Properties {
 	_MainTex		    ("Font Atlas", 2D) = "white" {}

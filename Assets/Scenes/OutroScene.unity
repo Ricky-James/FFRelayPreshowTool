@@ -672,7 +672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &255933071
 Transform:
   m_ObjectHideFlags: 0
@@ -1131,8 +1131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -40.59, y: -252.29}
-  m_SizeDelta: {x: 370, y: 567.66}
+  m_AnchoredPosition: {x: -40.59, y: -250.38}
+  m_SizeDelta: {x: 370, y: 563.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &399997713
 MonoBehaviour:
@@ -1156,10 +1156,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "<alpha=#88>FINAL FANTASY I\nFINAL FANTASY II\n<alpha=#ff>FINAL FANTASY
     III\n<color=#888888FF>4\n\u7345\u904A\u795E\u304C\u308B(ShiyugamiGaru)\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\nFinal
-    Fantasy Crystal Chronicles Remaster\n"
+    Fantasy Crystal Chronicles Remaster\n19"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b624413338613d14bacf3c296848b66c, type: 2}
-  m_sharedMaterial: {fileID: 8046351130364532205, guid: b624413338613d14bacf3c296848b66c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4f64cd35080046c45b927dee2c49f38e, type: 2}
+  m_sharedMaterial: {fileID: 8046351130364532205, guid: 4f64cd35080046c45b927dee2c49f38e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1183,7 +1183,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.35
+  m_fontSize: 21.05
   m_fontSizeBase: 30.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1444,9 +1444,9 @@ LineRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Positions:
-  - {x: -6, y: -3.845, z: 0}
-  - {x: 1.25, y: -3.845, z: 0}
-  - {x: 8.5, y: -3.845, z: 0}
+  - {x: -6, y: -3.58, z: 0}
+  - {x: 1.25, y: -3.58, z: 0}
+  - {x: 8.5, y: -3.58, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.2
@@ -1455,7 +1455,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0.0039367676
-        value: 0.059838057
+        value: 0.08
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2750,8 +2750,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 352.56, y: -252.29}
-  m_SizeDelta: {x: 370, y: 567.66}
+  m_AnchoredPosition: {x: 352.56, y: -250.38}
+  m_SizeDelta: {x: 370, y: 563.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1006411344
 MonoBehaviour:
@@ -2775,10 +2775,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "<alpha=#88>FINAL FANTASY I\nFINAL FANTASY II\n<alpha=#ff>FINAL FANTASY
     III\n<color=#888888FF>4\n\u7345\u904A\u795E\u304C\u308B(ShiyugamiGaru)\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\nFinal
-    Fantasy Crystal Chronicles Remaster\n"
+    Fantasy Crystal Chronicles Remaster\n19"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b624413338613d14bacf3c296848b66c, type: 2}
-  m_sharedMaterial: {fileID: 8046351130364532205, guid: b624413338613d14bacf3c296848b66c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0fcd5aaeb41b01147af034f4aa047d2e, type: 2}
+  m_sharedMaterial: {fileID: 8046351130364532205, guid: 0fcd5aaeb41b01147af034f4aa047d2e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2802,7 +2802,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.35
+  m_fontSize: 21.05
   m_fontSizeBase: 30.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2887,8 +2887,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -690, y: -254.22998}
-  m_SizeDelta: {x: 806.94, y: 571.54}
+  m_AnchoredPosition: {x: -690, y: -252.31}
+  m_SizeDelta: {x: 806.94, y: 567.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1019917331
 MonoBehaviour:
@@ -2946,7 +2946,9 @@ MonoBehaviour:
     17
 
     Final
-    Fantasy Crystal Chronicles Remaster'
+    Fantasy Crystal Chronicles Remaster
+
+    19'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b624413338613d14bacf3c296848b66c, type: 2}
   m_sharedMaterial: {fileID: 8046351130364532205, guid: b624413338613d14bacf3c296848b66c, type: 2}
@@ -2973,7 +2975,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.75
+  m_fontSize: 22.35
   m_fontSizeBase: 30.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3476,81 +3478,85 @@ MonoBehaviour:
   TwitchIcon: {fileID: 0}
   YouTubeIcon: {fileID: 0}
   GameData:
-  - {fileID: 11400000, guid: 03366bc3458857443b69ade6889de7d5, type: 2}
-  - {fileID: 11400000, guid: d8f3608a727d1ab44996be53765a77e0, type: 2}
-  - {fileID: 11400000, guid: e6dc548001d37c84eac9b682f6baea66, type: 2}
-  - {fileID: 11400000, guid: 2ab158c84d5a4e14d8ce581436033fc4, type: 2}
-  - {fileID: 11400000, guid: 56c4d631d4405e24cadc3de4f3ee37e3, type: 2}
-  - {fileID: 11400000, guid: e3f8af611c076c04c8de2918f173402b, type: 2}
-  - {fileID: 11400000, guid: 7136b528acb88994c9ecdff5405b8cb5, type: 2}
-  - {fileID: 11400000, guid: 2c74a1f3c775d8c448599ca68a255325, type: 2}
-  - {fileID: 11400000, guid: aa13528870b9d1647800a5d39b705334, type: 2}
+  - {fileID: 11400000, guid: 117523e44c638304fb02d67cb81b4bb7, type: 2}
+  - {fileID: 11400000, guid: 3b7483eebfb8f384ebed73fa4a955d88, type: 2}
+  - {fileID: 11400000, guid: c062442ca6bdcab4c83af9959b2f0eee, type: 2}
+  - {fileID: 11400000, guid: cc5be216a0c2e1846bd5e091418540d7, type: 2}
+  - {fileID: 11400000, guid: 73193c0b006ee424b92c989d15221798, type: 2}
+  - {fileID: 11400000, guid: 7d9fd7a73d32fb444b862ff9fc3b462f, type: 2}
+  - {fileID: 11400000, guid: e45b64649880d644abeaa668c0475944, type: 2}
+  - {fileID: 11400000, guid: cd7e37801ea6165469ffe6f053a93267, type: 2}
+  - {fileID: 11400000, guid: f527fbe903cda64408042018749cb185, type: 2}
   - {fileID: 11400000, guid: c919cdf21f7c1d44db3909d5f5e9c954, type: 2}
-  - {fileID: 11400000, guid: 876f88bfef2db154ca57c450169ebb30, type: 2}
-  - {fileID: 11400000, guid: 19aec7537efab844386172aa5b719768, type: 2}
-  - {fileID: 11400000, guid: 9ba4ac672ae24a94783dbde86c4ac21f, type: 2}
-  - {fileID: 11400000, guid: b3b4e0fbbb1c0e9418fba2a72ab14add, type: 2}
-  - {fileID: 11400000, guid: 5d6899da9b5fabe4fbc13ed5968a31bd, type: 2}
-  - {fileID: 11400000, guid: 503466876cffa13489c9cfdee3f7a163, type: 2}
-  - {fileID: 11400000, guid: 0075853a7ad182c41ab61915799b1085, type: 2}
-  - {fileID: 11400000, guid: 5d9912ab8eb41ef42bb6130f8987829c, type: 2}
+  - {fileID: 11400000, guid: 4b89cad04ddcb454abdf6056214c13b9, type: 2}
+  - {fileID: 11400000, guid: bfbab6e351b1f9f4b943104d310a6304, type: 2}
+  - {fileID: 11400000, guid: b78657a114970b0459a3e95568cab342, type: 2}
+  - {fileID: 11400000, guid: 6119a1aad1b62a34a87902b9e1bcf558, type: 2}
+  - {fileID: 11400000, guid: 1d7c6115e97cc9147b10e040bab8db12, type: 2}
+  - {fileID: 11400000, guid: 53aa47b245de5d4468da156795888d76, type: 2}
+  - {fileID: 11400000, guid: f3ee3cc8a2e066b4b87856a3f83e1ec8, type: 2}
+  - {fileID: 11400000, guid: 8127842cf497954438eedae1a42053b7, type: 2}
+  - {fileID: 11400000, guid: 27fcbbbcc19f0e740979f48412e558f2, type: 2}
   MogRunners:
-  - {fileID: 11400000, guid: b9ffd4bef1918674589bd80b9887e6e6, type: 2}
-  - {fileID: 11400000, guid: 9e8b5de7345ce734899ef0d91cb36584, type: 2}
-  - {fileID: 11400000, guid: e9597a41de5079c41ae117ae097871a3, type: 2}
-  - {fileID: 11400000, guid: bf2371505277b80448f22f40a50285ab, type: 2}
-  - {fileID: 11400000, guid: d7011820a4c2de849911246f4410d97c, type: 2}
-  - {fileID: 11400000, guid: a1c84e0b3d8b2274faed35f1758ece85, type: 2}
-  - {fileID: 11400000, guid: e3f70c7e3e48309468764456753c814d, type: 2}
-  - {fileID: 11400000, guid: 5bd07aeddf5f97443b7760370fd6e40c, type: 2}
-  - {fileID: 11400000, guid: f93324ef9252f0847961f1700cdef11c, type: 2}
-  - {fileID: 11400000, guid: 077e1f0e8305b8e49b324b007d242228, type: 2}
-  - {fileID: 11400000, guid: 2d20fc9d9a4d40f46ae22bc77acdd37f, type: 2}
-  - {fileID: 11400000, guid: fec73f0a10784f64fbf7bb4ab012a9ec, type: 2}
-  - {fileID: 11400000, guid: 3038595c04d8966468f6eae02c22e51d, type: 2}
-  - {fileID: 11400000, guid: c47cd3e316f5f5e4e83b23a78f7865df, type: 2}
-  - {fileID: 11400000, guid: 3ac88c57cdc8d324394d93b741ec73a3, type: 2}
-  - {fileID: 11400000, guid: a281b85435284d24090c71e383f2eb02, type: 2}
-  - {fileID: 11400000, guid: c183afa27b882b54da566621b2eed901, type: 2}
-  - {fileID: 11400000, guid: d328bdf961e4c1243b2fea80b67ec789, type: 2}
+  - {fileID: 11400000, guid: d3dd93f3f41b86947b5e30696f0e62c8, type: 2}
+  - {fileID: 11400000, guid: e5595004192171843b719b17ba8e7b19, type: 2}
+  - {fileID: 11400000, guid: eb1b69e9cc1df3247adc63b62f9dae5d, type: 2}
+  - {fileID: 11400000, guid: e288bc52f145f154eb2b80cc00b69ccf, type: 2}
+  - {fileID: 11400000, guid: 59e0292e5c5f6b84e97b5428c03ae3d8, type: 2}
+  - {fileID: 11400000, guid: 0d7efc256c6fe1a44970e76c29174d8b, type: 2}
+  - {fileID: 11400000, guid: 94f87bdbdee2b32448e45ad483d8cd93, type: 2}
+  - {fileID: 11400000, guid: 9ad6dd7de33e18e439a2e6d25ea75f10, type: 2}
+  - {fileID: 11400000, guid: f8854b519b6344b4aac7b197a07fded7, type: 2}
+  - {fileID: 11400000, guid: 86c4b2c5e2cb01c46ba1a708a685a888, type: 2}
+  - {fileID: 11400000, guid: 8134072903946704f9d4e653ae632ccc, type: 2}
+  - {fileID: 11400000, guid: 0e45836a066342346851335182de69d7, type: 2}
+  - {fileID: 11400000, guid: b97787e0f8912424cb5e8279d99bd5ea, type: 2}
+  - {fileID: 11400000, guid: 6357013b1a3b4614b8ffc82a9dce0116, type: 2}
+  - {fileID: 11400000, guid: 3ab2b773d5d34204ca6fa1faf12b7316, type: 2}
+  - {fileID: 11400000, guid: 034977ff9ac8cfa4c8e7fba274269bae, type: 2}
+  - {fileID: 11400000, guid: 6c6b5d345bd28ef48b689ca4fb7ec244, type: 2}
+  - {fileID: 11400000, guid: 8f38013b938305c4e9c764e2198346cc, type: 2}
+  - {fileID: 11400000, guid: 82fefecfc803a784186090082a7e83e1, type: 2}
   ChocoRunners:
-  - {fileID: 11400000, guid: 8efd590fa3b7dc24ebaeac56077c8979, type: 2}
-  - {fileID: 11400000, guid: a944314acb27a2b4583d37e7968dc85d, type: 2}
-  - {fileID: 11400000, guid: 077ab91b796da9c46b8d4848da240966, type: 2}
-  - {fileID: 11400000, guid: c0f2ad12a99c93c449d7a873efb1751b, type: 2}
-  - {fileID: 11400000, guid: c6e74a86293816e4b94772d261ceb9ec, type: 2}
-  - {fileID: 11400000, guid: 1d5ab6044c206e04fb013cf031ebc782, type: 2}
-  - {fileID: 11400000, guid: ddc244d739237a04c9fe65667029c6b8, type: 2}
-  - {fileID: 11400000, guid: bfb4d332c1cc8854c8728fc640b9801c, type: 2}
-  - {fileID: 11400000, guid: 321cf8aec4530bb479677c23a040eb17, type: 2}
-  - {fileID: 11400000, guid: 97c886d69b80e8445a85d8fa42bea56b, type: 2}
-  - {fileID: 11400000, guid: 6f5e34da526227d48a9e411ffbf68022, type: 2}
-  - {fileID: 11400000, guid: 30167cc93f917684eb4d06b93edf2b6c, type: 2}
-  - {fileID: 11400000, guid: a8eb64c3db5029344ab03d3d811fb852, type: 2}
-  - {fileID: 11400000, guid: 2523d2e13604f8844b9c7267439187a7, type: 2}
-  - {fileID: 11400000, guid: e127bbb7179e2b740b001c91851b2d4c, type: 2}
-  - {fileID: 11400000, guid: 66f7ec90bce333246b4eb20cb2798706, type: 2}
-  - {fileID: 11400000, guid: f4d343b21fd05094ea1709950ef9595a, type: 2}
-  - {fileID: 11400000, guid: 926d58801dc82c140b089fbda1707bbd, type: 2}
+  - {fileID: 11400000, guid: d2d7760048b145345b6dcd9adf166834, type: 2}
+  - {fileID: 11400000, guid: 003b3fb7a4b10c64dac5464e495eaefe, type: 2}
+  - {fileID: 11400000, guid: 22450f806e71fbe4c99060b7767c534d, type: 2}
+  - {fileID: 11400000, guid: 8bbda2da9f1d02241b53df5e58c28454, type: 2}
+  - {fileID: 11400000, guid: 1262064e073efe740af3a07e4db065a5, type: 2}
+  - {fileID: 11400000, guid: 0811c003b7d65404796cca548b9d4f4a, type: 2}
+  - {fileID: 11400000, guid: 51b37da1ce3d73b4ca0563b7e6fe3e1c, type: 2}
+  - {fileID: 11400000, guid: f5f600eb9b0441549926f7a59d6b39f2, type: 2}
+  - {fileID: 11400000, guid: 4afe4b5a6a8b16b4bbbc289babad0683, type: 2}
+  - {fileID: 11400000, guid: 4835bfe085b03eb49a8eb18c34a3bf20, type: 2}
+  - {fileID: 11400000, guid: 7905eb41baf9d324db07311daef50f95, type: 2}
+  - {fileID: 11400000, guid: 50bf54dd6ea494145b2ae46341aa9303, type: 2}
+  - {fileID: 11400000, guid: 74c3802c63356e746adc486c274cdf8d, type: 2}
+  - {fileID: 11400000, guid: 3de91123016a5b54995e509b4bec1f81, type: 2}
+  - {fileID: 11400000, guid: e00fc7cb521692743aea99f02960b18f, type: 2}
+  - {fileID: 11400000, guid: 5f06b83c3e00232408a30067172f4dd9, type: 2}
+  - {fileID: 11400000, guid: aa3c1f9facb9b1d4f9780bff77e96b76, type: 2}
+  - {fileID: 11400000, guid: 6f4ef043791a97c4590af8590537a282, type: 2}
+  - {fileID: 11400000, guid: 75a499e5c9d5790428c0ddb57c932421, type: 2}
   TonberryRunners:
-  - {fileID: 11400000, guid: b9d19f1371b652942a975953b1e27c43, type: 2}
-  - {fileID: 11400000, guid: ad7aca96b1d9ab04ebcd7e97daf0a08c, type: 2}
-  - {fileID: 11400000, guid: d0e2ba00739527549a83c9756d666367, type: 2}
-  - {fileID: 11400000, guid: d169834f7343db54d9ec7d504ed08fd2, type: 2}
-  - {fileID: 11400000, guid: 2fb6abf634440404e987ec9f3edeb276, type: 2}
-  - {fileID: 11400000, guid: 12f82d96b6cfec9409b565b670509ab5, type: 2}
-  - {fileID: 11400000, guid: 206425b3494b5fe4c9a4b4ea8e1380c9, type: 2}
-  - {fileID: 11400000, guid: c9746f324f2f3a3499dae65f31ca637c, type: 2}
-  - {fileID: 11400000, guid: e954bf9e2f303f742a3c9117b3436a20, type: 2}
-  - {fileID: 11400000, guid: fc6ddcd68ac0b6143aa04ca9dd3186a3, type: 2}
-  - {fileID: 11400000, guid: 7519646537665a3449c37674a292c501, type: 2}
-  - {fileID: 11400000, guid: 137cb8d0dd63b0f42988d830bc6439dd, type: 2}
-  - {fileID: 11400000, guid: 235d35ebdb307b24b9839b813883c99e, type: 2}
-  - {fileID: 11400000, guid: 0c4280483cd34d44a800a029d246f2e6, type: 2}
-  - {fileID: 11400000, guid: df39782d3c1545e48aa0953386ae8265, type: 2}
-  - {fileID: 11400000, guid: 294756a896c99fc48ad399afe8ec24c1, type: 2}
-  - {fileID: 11400000, guid: 9fb9148c768d74d4db569792f60a8b16, type: 2}
-  - {fileID: 11400000, guid: 30aaceb8748c3444b9dc6274279b9ebd, type: 2}
+  - {fileID: 11400000, guid: c79e49b3c8e8c7b498383932ddf04134, type: 2}
+  - {fileID: 11400000, guid: a333f60f927f8404892692d68924e7ff, type: 2}
+  - {fileID: 11400000, guid: 71e80378fb5e47b42bf6ef304a6c96c5, type: 2}
+  - {fileID: 11400000, guid: 5f23314bef334224fb7139b235b4d4ff, type: 2}
+  - {fileID: 11400000, guid: 0ef057be810e4e0469308e8a7ef09900, type: 2}
+  - {fileID: 11400000, guid: 8d95ac00ad0d2144f91a527725d07f0f, type: 2}
+  - {fileID: 11400000, guid: dd874fa2ffae7f745b881c388ac0000a, type: 2}
+  - {fileID: 11400000, guid: 99f7244f1b55bf246ae8672edaaafdb4, type: 2}
+  - {fileID: 11400000, guid: 21ae7183d80f80f4bb093dfccd802abb, type: 2}
+  - {fileID: 11400000, guid: 503077b15ad395e4385d27065c009a07, type: 2}
+  - {fileID: 11400000, guid: 7bcb9c4bf31160c489bdbd5bb92220c7, type: 2}
+  - {fileID: 11400000, guid: 8e2e5dd55a2558542b13308685607af0, type: 2}
+  - {fileID: 11400000, guid: def57031944d65c42a57b1fa9bf13387, type: 2}
+  - {fileID: 11400000, guid: 1b177482d09087a4da5e0b7226dfc3a4, type: 2}
+  - {fileID: 11400000, guid: 7e8b04836e553e5409c780775bb85a1b, type: 2}
+  - {fileID: 11400000, guid: bd0b56a74ec43c4468cabf7209043f2a, type: 2}
+  - {fileID: 11400000, guid: 342fc4ee86decf749b0ebc8bd4f57a3a, type: 2}
+  - {fileID: 11400000, guid: fa535cf07dd698841a32f3c30773d0fe, type: 2}
+  - {fileID: 11400000, guid: 6305e349f32d1ed49ad7fd1b76d10933, type: 2}
 --- !u!114 &1216582561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3832,9 +3838,9 @@ LineRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Positions:
-  - {x: -6, y: -0.875, z: 0}
-  - {x: 1.25, y: -0.875, z: 0}
-  - {x: 8.5, y: -0.875, z: 0}
+  - {x: -6, y: -1.1, z: 0}
+  - {x: 1.25, y: -1.1, z: 0}
+  - {x: 8.5, y: -1.1, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.2
@@ -3842,8 +3848,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.0039367676
-        value: 0.059838057
+        time: 0.0068130493
+        value: 0.08
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -4486,8 +4492,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 744, y: -252.29}
-  m_SizeDelta: {x: 370, y: 567.66}
+  m_AnchoredPosition: {x: 744, y: -250.38}
+  m_SizeDelta: {x: 370, y: 563.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1841717421
 MonoBehaviour:
@@ -4547,10 +4553,10 @@ MonoBehaviour:
     Final
     Fantasy Crystal Chronicles Remaster
 
-'
+    19'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b624413338613d14bacf3c296848b66c, type: 2}
-  m_sharedMaterial: {fileID: 8046351130364532205, guid: b624413338613d14bacf3c296848b66c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8be99d8ca80c7a14bb10889b36041bcf, type: 2}
+  m_sharedMaterial: {fileID: 8046351130364532205, guid: 8be99d8ca80c7a14bb10889b36041bcf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4574,7 +4580,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.35
+  m_fontSize: 21.05
   m_fontSizeBase: 30.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
