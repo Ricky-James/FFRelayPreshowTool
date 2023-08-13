@@ -12,9 +12,13 @@
 
 # Generated Scriptable Objects
 /[Aa]ssets/Runners/
+/[Aa]ssets/Games/
 
 # Closed source
 /[Aa]ssets/Shaders/ThirdParty/
+
+# Runner spoiler prevention
+/[Aa]ssets/RelayFiles/
 
 # Video clips
 /[Aa]ssets/StreamingAssets/
