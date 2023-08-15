@@ -10,7 +10,8 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - Mamelon
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 94bdf6feca6fb6f41b212b95104b099e, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

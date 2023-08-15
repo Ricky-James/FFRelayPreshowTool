@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -627, y: 168}
+  m_AnchoredPosition: {x: -655, y: 212}
   m_SizeDelta: {x: 402.5, y: 225.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &135842082
@@ -194,7 +194,7 @@ MonoBehaviour:
     CEST 16:00
 
     JST
-    (8/26) 01:00'
+    23:00'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1444,9 +1444,9 @@ LineRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Positions:
-  - {x: -6, y: -3.58, z: 0}
-  - {x: 1.25, y: -3.58, z: 0}
-  - {x: 8.5, y: -3.58, z: 0}
+  - {x: -6, y: -3, z: 0}
+  - {x: 1.25, y: -3, z: 0}
+  - {x: 8.5, y: -3, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.2
@@ -2887,7 +2887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -690, y: -252.31}
+  m_AnchoredPosition: {x: -690, y: -219}
   m_SizeDelta: {x: 806.94, y: 567.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1019917331
@@ -2975,7 +2975,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.35
+  m_fontSize: 25.15
   m_fontSizeBase: 30.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2987,7 +2987,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: -9.1
   m_wordSpacing: 0
-  m_lineSpacing: -14.57
+  m_lineSpacing: -30.4
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -3718,7 +3718,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -655, y: -205}
+  m_AnchoredPosition: {x: -655, y: -171.69}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1350343129
@@ -3838,9 +3838,9 @@ LineRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Positions:
-  - {x: -6, y: -1.1, z: 0}
-  - {x: 1.25, y: -1.1, z: 0}
-  - {x: 8.5, y: -1.1, z: 0}
+  - {x: -6, y: -1.05, z: 0}
+  - {x: 1.25, y: -1.05, z: 0}
+  - {x: 8.5, y: -1.05, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.2
@@ -4892,7 +4892,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: <size=125%>F</size>INAL <size=125%>F</size>ANTASY <size=125%>S</size>ERIES
-    <size=125%>R</size>ELAY <size=125%>VII</size>
+    <size=125%>R</size>ELAY <size=125%>VIII</size>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 34b89c0c21d0ceb4fa6aadc5743e56ab, type: 2}
   m_sharedMaterial: {fileID: 4045635792633875209, guid: 34b89c0c21d0ceb4fa6aadc5743e56ab, type: 2}
@@ -5208,7 +5208,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -655, y: -205}
+  m_AnchoredPosition: {x: -655, y: -171.69}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2023321402
@@ -5237,7 +5237,7 @@ Transform:
   m_GameObject: {fileID: 2023321402}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 33.309994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
