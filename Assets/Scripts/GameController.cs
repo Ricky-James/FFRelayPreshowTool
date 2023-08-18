@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour
 
     private readonly string[] commentators = {"AdrianMamba", "Talbrik", "BrainBugged", "KingSPi", "KeeperBK", "FoxyJira", "eLmaGus", "Desch",
         "Z3R01337", "sonicglenjamin", "IonicKarma", "Roosta", "Woady", "Kyoslilmonster",
-        "daspharaoh", "thebroodles", "Mel", "MrZwanzig", "Bdewd" };
+        "Daspharaoh", "thebroodles", "Melle", "MrZwanzig", "Bdewd" };
 
 
     private GamesListController gamesListController;
@@ -51,8 +51,8 @@ public class GameController : MonoBehaviour
         {
             // Set first game
             ToggleTeamsDisplay(false);
-            Commentary.text = "";
-            commentaryIcon.enabled = false;
+            Commentary.text = HOST;
+            commentaryIcon.enabled = true;
        
             if(GameData.Count == 0)
                 Debug.LogWarning("Game list empty. Did you forget to create and assign SOs? - Use FF Header tools");
@@ -68,8 +68,7 @@ public class GameController : MonoBehaviour
         {
             gameState++;
             
-            if (gameState >= 4)
-            {
+            if(gameState >= 4){
                 gameState = 0;
                 // Allows cycling through all of the games once all are revealed
                 if (gamesDoneCount == GameData.Count)
@@ -78,6 +77,8 @@ public class GameController : MonoBehaviour
                 }
                 return;
             }
+
+            UpdateCommentatorNames();
             // Display the next team's runner and icon
             TeamIcons[gameState - 1].SetActive(true);
             TeamNames[gameState - 1].enabled = true;
@@ -91,8 +92,6 @@ public class GameController : MonoBehaviour
         currentGame++;
         gamesListController.SetCurrentGame(currentGame);
         UpdateRunners(currentGame);
-        
-        Commentary.text = HOST + commentators[currentGame];
     }
 
     public void SelectGame(int gameID)
@@ -102,10 +101,15 @@ public class GameController : MonoBehaviour
         currentGame = Mathf.Clamp(currentGame,0,GameData.Count);
         gamesListController.SetCurrentGame(currentGame);
         UpdateRunners(currentGame);
-        Commentary.text = HOST + commentators[currentGame];
         gameState = 0;
+        UpdateCommentatorNames();
         gamesDoneCount = GameData.Count(game => game.Done);
         commentaryIcon.enabled = true;
+    }
+
+    private void UpdateCommentatorNames()
+    {
+        Commentary.text = gameState < 3 ? HOST : HOST + commentators[currentGame];
     }
 
     private void UpdateRunners(int gameID)
