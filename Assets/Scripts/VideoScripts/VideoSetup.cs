@@ -45,8 +45,8 @@ public class VideoSetup : MonoBehaviour
         loopToggle.onValueChanged.AddListener(delegate { OnLoopChanged(); });
         videoPlayer.loopPointReached += OnVideoEnd;
         videoDropdown.onValueChanged.AddListener(delegate { OnDropdownChange(videoDropdown); });
-        playButton.onClick.AddListener(PlayButton);
-        stopButton.onClick.AddListener(StopButton);
+        playButton.onClick.AddListener(PlayVideo);
+        stopButton.onClick.AddListener(StopVideo);
         OnVolumeChange();
         OnLoopChanged();
         TogglePlayButtons();
@@ -56,7 +56,7 @@ public class VideoSetup : MonoBehaviour
     {
 	    if (source.isLooping)
 		    return;
-	    StopButton();
+	    StopVideo();
     }
 
     private void VideoStarted(VideoPlayer source)
@@ -92,13 +92,13 @@ public class VideoSetup : MonoBehaviour
         videoPlayer.url = m_Videos[0];
     }
 
-    private void PlayButton()
+    private void PlayVideo()
     {
         videoPlayer.url = m_Videos[videoDropdown.value];
         videoPlayer.Play();
     }
 
-    private void StopButton()
+    private void StopVideo()
     {
 	    if(videoPlayer.isPlaying)
 		    videoPlayer.Stop();
@@ -128,7 +128,7 @@ public class VideoSetup : MonoBehaviour
     {
         if (!source.isLooping)
         {
-            StopButton();
+            StopVideo();
             TogglePlayButtons();
             ToggleBackground();
         }
@@ -137,7 +137,7 @@ public class VideoSetup : MonoBehaviour
     private void OnDropdownChange(TMP_Dropdown dropdown)
     {
         if(videoPlayer.isPlaying)
-            StopButton();
+            StopVideo();
         videoPlayer.url = m_Videos[dropdown.value];
     }
 
