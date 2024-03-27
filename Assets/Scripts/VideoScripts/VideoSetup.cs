@@ -13,6 +13,8 @@ public class VideoSetup : MonoBehaviour
     [Header("Canvas Elements")]
     public Animation videoBackground;
     public Image videoImage;
+    public GameObject videoRunnerPanel;
+    public GameObject mainRunnerPanel;
     
     [Header("UI Elements")]
     public Button playButton;
@@ -23,9 +25,21 @@ public class VideoSetup : MonoBehaviour
 
     public VideoPlayer videoPlayer;
     private List<string> m_Videos;
+    
+    [Header("Video Panel Player Names")]
+    [SerializeField] private TMP_Text videoMogName;
+    [SerializeField] private TMP_Text videoChocoName;
+    [SerializeField] private TMP_Text videoTonName;
+
+    [Header("Main Canvas Player Names")]
+    [SerializeField] private TMP_Text mainMogName;
+    [SerializeField] private TMP_Text mainChocoName;
+    [SerializeField] private TMP_Text mainTonName;
 
     private void Start()
     {
+	    videoPlayer.started += VideoStarted;
+	    videoPlayer.loopPointReached += LoopPointReached;
         PopulateDropdownList();
         volumeSlider.onValueChanged.AddListener(delegate { OnVolumeChange(); });
         loopToggle.onValueChanged.AddListener(delegate { OnLoopChanged(); });
@@ -36,6 +50,29 @@ public class VideoSetup : MonoBehaviour
         OnVolumeChange();
         OnLoopChanged();
         TogglePlayButtons();
+    }
+
+    private void LoopPointReached(VideoPlayer source)
+    {
+	    if (source.isLooping)
+		    return;
+	    StopButton();
+    }
+
+    private void VideoStarted(VideoPlayer source)
+    {
+	    videoImage.enabled = true;
+	    UpdateRunnerNames();
+	    TogglePlayButtons();
+	    ToggleBackground();
+	    ToggleRunnerPanels();
+    }
+
+    private void UpdateRunnerNames()
+    {
+	    videoMogName.text = mainMogName.text;
+	    videoChocoName.text = mainChocoName.text;
+	    videoTonName.text = mainTonName.text;
     }
 
     private void PopulateDropdownList()
@@ -57,19 +94,24 @@ public class VideoSetup : MonoBehaviour
 
     private void PlayButton()
     {
-        videoImage.enabled = true;
         videoPlayer.url = m_Videos[videoDropdown.value];
         videoPlayer.Play();
-        TogglePlayButtons();
-        ToggleBackground();
     }
 
     private void StopButton()
     {
+	    if(videoPlayer.isPlaying)
+		    videoPlayer.Stop();
         videoImage.enabled = false;
-        videoPlayer.Stop();
         TogglePlayButtons();
         ToggleBackground();
+        ToggleRunnerPanels();
+    }
+
+    public void ToggleRunnerPanels()
+    {
+	    videoRunnerPanel.SetActive(videoPlayer.isPlaying);
+	    mainRunnerPanel.SetActive(!videoPlayer.isPlaying);
     }
 
     private void OnVolumeChange()
@@ -97,7 +139,6 @@ public class VideoSetup : MonoBehaviour
         if(videoPlayer.isPlaying)
             StopButton();
         videoPlayer.url = m_Videos[dropdown.value];
-        Debug.Log($"VideoPlayer URL: {videoPlayer.url}");
     }
 
     private void TogglePlayButtons()
