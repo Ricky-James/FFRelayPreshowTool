@@ -5,7 +5,7 @@ using UnityEngine;
 public class IntroTimer : MonoBehaviour
 {
     private TMP_Text timerText;
-    private const float startTimeSeconds = 60 * 60;
+    public const float startTimeSeconds = 60 * 60;
     private float remainingTime;
     
     void Start()

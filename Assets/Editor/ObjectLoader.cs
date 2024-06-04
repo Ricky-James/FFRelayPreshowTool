@@ -27,9 +27,12 @@ public class ObjectLoader : MonoBehaviour
         // Assign objects to game controller in inspector
         GameController gameController = FindObjectOfType<GameController>();
         gameController.GameData.Clear();
+        AudioController audioController = FindObjectOfType<AudioController>();
+        audioController.gameList.Clear();
         for (int i = 0; i < games.Count; i++)
         {
             gameController.GameData.Add(games[i]);
+            audioController.gameList.Add(games[i]);
         }
 
         Selection.activeObject = gameController;

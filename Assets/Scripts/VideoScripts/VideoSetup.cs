@@ -19,7 +19,7 @@ public class VideoSetup : MonoBehaviour
     [Header("UI Elements")]
     public Button playButton;
     public Button stopButton;
-    public Slider volumeSlider;
+    
     public Toggle loopToggle;
     public TMP_Dropdown videoDropdown;
 
@@ -38,16 +38,15 @@ public class VideoSetup : MonoBehaviour
 
     private void Start()
     {
+	    videoPlayer.SetDirectAudioMute(0, true);
 	    videoPlayer.started += VideoStarted;
 	    videoPlayer.loopPointReached += LoopPointReached;
         PopulateDropdownList();
-        volumeSlider.onValueChanged.AddListener(delegate { OnVolumeChange(); });
         loopToggle.onValueChanged.AddListener(delegate { OnLoopChanged(); });
         videoPlayer.loopPointReached += OnVideoEnd;
         videoDropdown.onValueChanged.AddListener(delegate { OnDropdownChange(videoDropdown); });
         playButton.onClick.AddListener(PlayVideo);
         stopButton.onClick.AddListener(StopVideo);
-        OnVolumeChange();
         OnLoopChanged();
         TogglePlayButtons();
     }
@@ -112,11 +111,6 @@ public class VideoSetup : MonoBehaviour
     {
 	    videoRunnerPanel.SetActive(videoPlayer.isPlaying);
 	    mainRunnerPanel.SetActive(!videoPlayer.isPlaying);
-    }
-
-    private void OnVolumeChange()
-    {
-        videoPlayer.SetDirectAudioVolume(0, volumeSlider.value);
     }
 
     private void OnLoopChanged()

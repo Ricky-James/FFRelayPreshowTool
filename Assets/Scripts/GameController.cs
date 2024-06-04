@@ -23,6 +23,10 @@ public class GameController : MonoBehaviour
 
     private GamesListController gamesListController;
 
+    
+    [SerializeField] private AudioController _audioController;
+
+    [Header("Team Configurations")]
     [SerializeField] private GameObject[] TeamIcons = new GameObject[3];
     [SerializeField] private TMP_Text[] TeamNames = new TMP_Text[3];
     [SerializeField] private TMP_Text[] TeamRunnerNames = new TMP_Text[3];
@@ -92,6 +96,7 @@ public class GameController : MonoBehaviour
         currentGame++;
         gamesListController.SetCurrentGame(currentGame);
         UpdateRunners(currentGame);
+        _audioController.SetGame(GameData[currentGame]);
     }
 
     public void SelectGame(int gameID)
@@ -105,6 +110,7 @@ public class GameController : MonoBehaviour
         UpdateCommentatorNames();
         gamesDoneCount = GameData.Count(game => game.Done);
         commentaryIcon.enabled = true;
+        _audioController.SetGame(GameData[currentGame]);
     }
 
     private void UpdateCommentatorNames()
