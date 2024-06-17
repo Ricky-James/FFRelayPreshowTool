@@ -68,6 +68,20 @@ public class GamesListController : MonoBehaviour
             GamesListText.text += (game.Selected ? SELECTED : game.Done ? DONE : NOTDONE) + game.Title + END_FORMATTING + "\n";
         }
     }
+    
+    public bool isAllGamesComplete
+    {
+	    get
+	    {
+		    foreach (Game_SO game in gameController.GameData)
+		    {
+			    if (!game.Done)
+				    return false;
+		    }
+
+		    return true;
+	    }
+    }
 
     private void OnApplicationQuit()
     {

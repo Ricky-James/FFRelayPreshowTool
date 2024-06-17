@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 using Input = InputHandler;
 
 
@@ -24,7 +25,8 @@ public class GameController : MonoBehaviour
     private GamesListController gamesListController;
 
     
-    [SerializeField] private AudioController _audioController;
+    [SerializeField] private AudioController audioController;
+    [SerializeField] private Button doneButton;
 
     [Header("Team Configurations")]
     [SerializeField] private GameObject[] TeamIcons = new GameObject[3];
@@ -61,11 +63,8 @@ public class GameController : MonoBehaviour
             if(GameData.Count == 0)
                 Debug.LogWarning("Game list empty. Did you forget to create and assign SOs? - Use FF Header tools");
         }
-
     }
     
-    
-
     void Update()
     {
         if (Input.NextState && commentaryIcon.enabled) // Check first game has been selected
@@ -86,7 +85,13 @@ public class GameController : MonoBehaviour
             // Display the next team's runner and icon
             TeamIcons[gameState - 1].SetActive(true);
             TeamNames[gameState - 1].enabled = true;
-            TeamRunnerNames[gameState - 1].gameObject.SetActive(true);;
+            TeamRunnerNames[gameState - 1].gameObject.SetActive(true);
+            
+            if (gamesListController.isAllGamesComplete)
+            {
+	            // TODO : Done button logic (Find SceneManager gameobject)
+	            doneButton.interactable = true;
+            }
         }
     }
 
@@ -96,7 +101,7 @@ public class GameController : MonoBehaviour
         currentGame++;
         gamesListController.SetCurrentGame(currentGame);
         UpdateRunners(currentGame);
-        _audioController.SetGame(GameData[currentGame]);
+        audioController.SetGame(GameData[currentGame]);
     }
 
     public void SelectGame(int gameID)
@@ -110,7 +115,8 @@ public class GameController : MonoBehaviour
         UpdateCommentatorNames();
         gamesDoneCount = GameData.Count(game => game.Done);
         commentaryIcon.enabled = true;
-        _audioController.SetGame(GameData[currentGame]);
+        audioController.SetGame(GameData[currentGame]);
+        Debug.Log($"Current game: {currentGame}");
     }
 
     private void UpdateCommentatorNames()

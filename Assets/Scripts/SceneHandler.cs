@@ -12,11 +12,27 @@ public class SceneHandler : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F2) && SceneManager.GetActiveScene().buildIndex > 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+	        LoadPreviousScene();
         }
         if (Input.GetKeyDown(KeyCode.F3) && SceneManager.GetActiveScene().buildIndex <= SceneManager.sceneCount)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            LoadNextScene();
         }
+    }
+
+    public void LoadPreviousScene()
+    {
+	    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
+    public void LoadNextScene()
+    {
+	    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    // Scene restart button on intro UI
+    public void ReloadCurrentScene()
+    {
+	    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
